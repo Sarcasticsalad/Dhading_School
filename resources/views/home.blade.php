@@ -12,11 +12,11 @@
     @include('layouts.nav')
    </header>
 
-   <div class="mt-6 w-full sm:mt-7 md:mt-8 lg:mt-10 xl:mt-6 xl:h-screen xl:object-fill 2xl:mt-6">
+   <div class="mt-6 w-full sm:mt-7 md:mt-8 lg:mt-10 xl:mt-6 xl:object-fill 2xl:mt-6">
     <img src="{{ asset('pictures/HS.jpg') }}">
    </div>
 
-   <div class="mt-5 py-6">
+   <div class="mt-5 py-16 flex justify-center sm:py-20 lg:py-24 xl:py-28">
     @include('layouts.schools')
    </div>
 
