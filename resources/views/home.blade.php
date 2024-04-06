@@ -8,9 +8,17 @@
     @vite('resources/css/app.css')
 </head>
 <body>
-   <header>
+   <header class=""> 
     @include('layouts.nav')
    </header>
+
+   <div class="mt-6 w-full sm:mt-7 md:mt-8 lg:mt-10 xl:mt-6 xl:h-screen xl:object-fill 2xl:mt-6">
+    <img src="{{ asset('pictures/HS.jpg') }}">
+   </div>
+
+   <div class="mt-5 py-6">
+    @include('layouts.schools')
+   </div>
 
    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>   
