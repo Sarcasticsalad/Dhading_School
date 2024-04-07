@@ -28,6 +28,15 @@
     @include('layouts.admission_procedure')
    </div>
 
+   <div>
+    @include('layouts.courses')
+   </div>
+
+   <div>
+    @include('layouts.units')
+   </div>
+
+
    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>   
    <script src="{{ mix('/resources/js/hamburger.js') }}"></script>

@@ -1,10 +1,10 @@
-<div class="mt-12 flex flex-col gap-4 justify-center sm:mt-14 xl:mt-20">
+<div class="mt-12 py-5 flex flex-col gap-4 justify-center sm:mt-14 xl:mt-20">
 
     <h1 class="text-DDS-blue text-3xl font-semibold py-5 text-center md:text-4xl xl:text-5xl">Admission Procedure</h1>
 
     <div class="flex flex-col place-items-center sm:mt-1 lg:hidden">
 
-        <div class="flex flex-col gap-8">
+        <div class="flex flex-col gap-8 mx-8">
 
             <div class="flex flex-row items-center gap-5 ">
                 <h1 class="text-DDS-blue text-5xl font-bold">01</h1>
