@@ -8,7 +8,7 @@
     @vite('resources/css/app.css')
 </head>
 <body>
-   <header class=""> 
+   <header> 
     @include('layouts.nav')
    </header>
 
@@ -16,8 +16,12 @@
     <img src="{{ asset('pictures/HS.jpg') }}">
    </div>
 
-   <div class="mt-5 py-16 flex justify-center sm:py-20 lg:py-24 xl:py-28">
+   <div class="mt-5 py-14 flex justify-center sm:py-20 lg:py-24 xl:py-28">
     @include('layouts.schools')
+   </div>
+
+   <div class="py-5 flex justify-center">
+    @include('layouts.chooseDSS')
    </div>
 
    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
