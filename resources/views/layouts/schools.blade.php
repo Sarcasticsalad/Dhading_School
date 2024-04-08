@@ -1,4 +1,4 @@
-<div class="flex flex-col gap-14 sm:gap-16 lg:gap-20">
+<div id="Schools" class="flex flex-col gap-14 sm:gap-16 lg:gap-20">
   
     <div class="flex justify-center">
         <h1 class="text-DDS-blue font-semibold text-3xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl">Our Schools</h1>

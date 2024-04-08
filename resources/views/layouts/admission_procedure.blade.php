@@ -1,4 +1,4 @@
-<div class="mt-12 py-5 flex flex-col gap-4 justify-center sm:mt-14 xl:mt-20">
+<div class="mt-12 py-5 flex flex-col gap-4 justify-center sm:mt-14 xl:mt-20" id="Admission">
 
     <h1 class="text-DDS-blue text-3xl font-semibold py-5 text-center md:text-4xl xl:text-5xl">Admission Procedure</h1>
 

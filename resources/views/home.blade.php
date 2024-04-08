@@ -12,8 +12,8 @@
     @include('layouts.nav')
    </header>
 
-   <div class="mt-6 w-full sm:mt-7 md:mt-8 lg:mt-10 xl:mt-6 2xl:mt-6 bg-cover">
-    <img src="{{ asset('pictures/HS.jpg') }}">
+   <div class="mt-6 w-full sm:mt-7 md:mt-8 lg:mt-10 xl:mt-6 2xl:mt-6">
+    <img src="{{ asset('pictures/DDS_ARCHI.png') }}" class="object-cover">
    </div>
 
    <div class="mt-5 py-14 flex justify-center sm:py-20 lg:py-24 xl:py-28">
@@ -36,9 +36,9 @@
     @include('layouts.units')
    </div>
 
-   <div class="mt-36">
-    <div class="m-24">
-        <img src="{{ asset('pictures/DLC banner.jpg') }}" class="rounded-3xl">
+   <div class=" md:mt-20 lg:mt-20 xl:mt-28 2xl:mt-36">
+    <div class=" m-12 md:m-12 lg:m-12 xl:m-16 2xl:m-24">
+       <a href="https://dlc.dwit.edu.np/"><img src="{{ asset('pictures/DLC banner.jpg') }}" class="rounded-3xl"></a> 
     </div>
    </div>
 
