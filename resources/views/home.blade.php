@@ -12,7 +12,7 @@
     @include('layouts.nav')
    </header>
 
-   <div class="mt-6 w-full sm:mt-7 md:mt-8 lg:mt-10 xl:mt-6 xl:object-fill 2xl:mt-6">
+   <div class="mt-6 w-full sm:mt-7 md:mt-8 lg:mt-10 xl:mt-6 2xl:mt-6 bg-cover">
     <img src="{{ asset('pictures/HS.jpg') }}">
    </div>
 
@@ -36,6 +36,11 @@
     @include('layouts.units')
    </div>
 
+   <div class="mt-36">
+    <div class="m-24">
+        <img src="{{ asset('pictures/DLC banner.jpg') }}" class="rounded-3xl">
+    </div>
+   </div>
 
    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>   
