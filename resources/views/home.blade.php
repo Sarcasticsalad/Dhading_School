@@ -34,7 +34,7 @@
     @include('layouts.admission_procedure')
    </div>
 
-   <div class="mt-32">
+   <div class="mt-32" id="Management">
       @include('layouts.founder_messages')
    </div>
 
@@ -63,5 +63,6 @@
    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>   
    <script src="{{ mix('/resources/js/hamburger.js') }}"></script>
+   <script src="{{ mix('/resources/js/about_us.js') }}"></script>
 </body>
 </html>
