@@ -8,15 +8,15 @@
     @vite('resources/css/app.css')
 </head>
 <body>
-   <header> 
+   <header class="bg-white sticky top-0 z-10 shadow-md pb-8"> 
     @include('layouts.nav')
    </header>
 
-   <div class="mt-6 w-full sm:mt-7 md:mt-8 lg:mt-10 xl:mt-6 2xl:mt-6">
-    <img src="{{ asset('pictures/ARCHI_DDS.png') }}" class="object-cover">
+   <div class="min-h-screen lg:w-full">
+    <img src="{{ asset('pictures/ARCHI_DDS.png') }}" class="object-cover min-h-screen ">
    </div>
 
-   <div class="mt-5 py-14 flex justify-center sm:py-20 lg:py-24 xl:py-28">
+   <div class="mt-8 flex justify-center sm:mt-12 lg:mt-24 xl:mt-32">
     @include('layouts.schools')
    </div>
 
@@ -56,9 +56,9 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.1512244635464!2d85.3399280751816!3d27.712616776179456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1970d2e43e4b%3A0x946fac63019d2903!2sDeerwalk%20Institute%20of%20Technology!5e0!3m2!1sen!2snp!4v1712567217265!5m2!1sen!2snp" width="2720" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
    </div>
 
-   {{-- <footer class="bg-DDS-blue py-16">
+   <footer class="bg-DDS-blue py-16">
     @include('layouts.footer')
-   </footer> --}}
+   </footer>
 
    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>   
