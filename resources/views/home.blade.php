@@ -34,7 +34,7 @@
     @include('layouts.admission_procedure')
    </div>
 
-   <div class="mt-10">
+   <div class="mt-32">
       @include('layouts.founder_messages')
    </div>
 

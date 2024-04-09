@@ -1,4 +1,4 @@
-<div class="flex flex-col lg:gap-20 w-full" >
+<div class="flex flex-col lg:gap-20 w-full " >
 
     <div class="flex lg:flex-row lg:justify-around lg:pl-24">
 
