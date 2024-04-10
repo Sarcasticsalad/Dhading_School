@@ -8,16 +8,16 @@ export default {
   ],
   theme: {
     fontFamily:{
-      arial : ['Arial Rounded MT'],
-
-    fontWeight:{
-      bold:'bold',
-      }
-    },
+      
+      'arial-rounded': ['"Arial Rounded MT"', 'sans-serif'],
     
+    },
+  
     extend: {
       colors: {
-        'DDS-blue' : '#00B3E6', 
+        'DDS-blue' : '#00B3E6',
+        'Card-blue' : '#DCEFF7',
+
       }
     },
   },

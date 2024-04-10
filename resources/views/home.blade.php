@@ -5,36 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home Page</title>
+    <link href="/resources/css/fonts.css">
     @vite('resources/css/app.css')
 </head>
 <body>
-   <header class="bg-white sticky top-0 z-10 shadow-md pb-8"> 
+   <header class="bg-white sticky top-0 z-10 shadow-md pb-7"> 
     @include('layouts.nav')
    </header>
 
-   <div class="min-h-screen lg:w-full">
-    <img src="{{ asset('pictures/ARCHI_DDS.png') }}" class="object-cover min-h-screen ">
+   <div>
+    <img src="{{ asset('pictures/ARCHI_DDS.png') }}" class="object-cover min-h-screen w-full ">
    </div>
 
-   <div class="mt-8 flex justify-center sm:mt-12 lg:mt-24 xl:mt-32">
+   <div class="mt-11 flex justify-center sm:mt-12 md:mt-16 lg:mt-20 xl:mt-28">
     @include('layouts.schools')
    </div>
 
-   <div class="py-5 flex justify-center">
+   <div class="flex justify-center mt-20 sm:mt-20 md:mt-24 lg:mt-28 xl:mt-40">
     @include('layouts.chooseDSS')
    </div>
 
-   <div class="flex justify-center mt-16">
-      <div class="px-10">
+   <div class="flex justify-center mt-10 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-24">
+      <div class="px-10 hidden md:block">
          <img src="{{ asset('pictures/school_analytics.png') }}" class="object-cover 2xl:w-[100rem] ">
       </div>
+
+      <div class="px-10 md:hidden block">
+         <img src="{{ asset('pictures/Analytics mobile.png') }}" class="object-cover w-[30rem]">
+      </div>
+
    </div>
 
    <div>
     @include('layouts.admission_procedure')
    </div>
 
-   <div class="mt-32" id="Management">
+   <div class="mt-16 2xl:mt-32" id="Management">
       @include('layouts.founder_messages')
    </div>
 

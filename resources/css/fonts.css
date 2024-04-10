@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Arial Rounded MT';
+    font-weight: 400;
+    src: url('/public/assets/fonts/Arial_Rounded_MT/ArialRoundedMTRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Arial Rounded MT';
+    font-weight: 700;
+    src: url('/public/assets/fonts/Arial_Rounded_MT/arialroundedmtbold.ttf') format('truetype');
+}
