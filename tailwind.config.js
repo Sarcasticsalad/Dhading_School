@@ -15,7 +15,7 @@ export default {
   
     extend: {
       colors: {
-        'DDS-blue' : '#00B3E6',
+        'DDS-blue' : '#009DCA',
         'Card-blue' : '#DCEFF7',
 
       }

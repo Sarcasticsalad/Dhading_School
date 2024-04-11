@@ -3,7 +3,7 @@
     <div class="flex justify-center">
 
         <div class="flex flex-col gap-8 sm:gap-8 md:gap-10">
-            <h1 class="text-center text-DDS-blue font-arial-rounded font-bold text-3xl md:text-4xl">Founder's Greetings</h1>
+            <h1 class="text-center text-DDS-blue font-arial-rounded font-bold text-2xl md:text-4xl">Founder's Greetings</h1>
             <img src="{{ asset('pictures/Shahzada Dawood.jpeg') }}" class="rounded-full border-2 border-DDS-blue w-[12rem] sm:w-[16rem] md:w-[20rem] mx-auto">
             <p class="px-14 sm:px-16 md:px-24 font-arial-rounded font-normal text-justify">
                 At Sifal School, we take a holistic approach to education. While we strive for excellence in academics, our mission extends beyond that: We teach our students the soft and hard skills they need to become confident and curious citizens of the world.
@@ -23,10 +23,31 @@
     
     </div>
     
+
     <div class="flex justify-center">
     
         <div class="flex flex-col gap-8 sm:gap-8 md:gap-10">
-            <h1 class="text-center text-DDS-blue font-arial-rounded font-bold text-3xl md:text-4xl">Principal's Message</h1>
+            <h1 class="text-center text-DDS-blue font-arial-rounded font-bold text-2xl md:text-4xl">Principal's Message</h1>
+            <img src="{{ asset('pictures/Shahzada Dawood.jpeg') }}" class="rounded-full border-2 border-DDS-blue w-[12rem] sm:w-[16rem] md:w-[20rem] mx-auto">
+            <p class="px-14 sm:px-16 md:px-24 font-arial-rounded font-normal text-justify">
+                Deerwalk Dhading School(DDS) is dedicated to nurturing inspired minds.
+
+Within our vibrant campus community, we prioritize the pursuit of knowledge. While maintaining exceptional standards in core academics, our dedication to excellence is evident through our focus on four key pillars of education: Essential Skills, Language Proficiency, Academic Foundations, and Excellence in Extracurricular Activities (ECA).
+
+We acknowledge the inherent potential within every young mind, which can flourish with proper guidance. Through collaborative efforts involving School Management, Students, Parents, and our esteemed Teachers, we aim to unlock the full potential of our students.
+
+We are confident that as responsible citizens, our students will take pride in identifying themselves as DdS Alumni.
+
+            </p>
+            <p class="font-arial-rounded font-bold text-center text-lg md:text-xl">- Nirmal Kumar Paudel<br> Deerwalk Dhading School</p>
+        </div>
+    
+    </div>
+
+    <div class="flex justify-center">
+    
+        <div class="flex flex-col gap-8 sm:gap-8 md:gap-10">
+            <h1 class="text-center text-DDS-blue font-arial-rounded font-bold text-2xl md:text-4xl">Principal's Message</h1>
             <img src="{{ asset('pictures/Shahzada Dawood.jpeg') }}" class="rounded-full border-2 border-DDS-blue w-[12rem] sm:w-[16rem] md:w-[20rem] mx-auto">
             <p class="px-14 sm:px-16 md:px-24 font-arial-rounded font-normal text-justify">
                 With a robust background in Information Technology (IT) and my current role as a dedicated School Principal, I bring a blend of expertise to our educational journey. I hold a Master of Technology (MTech) degree in IT from Kathmandu University's esteemed School of Engineering. Additionally, I had the privilege of receiving the prestigious Erasmus Mundus Scholarship, which allowed me to pursue advanced studies at Politecnico di Torino in Italy, broadening my understanding of global IT landscapes.
@@ -44,27 +65,10 @@ I look forward to partnering with you in nurturing the academic, social, and emo
     
     </div>
 
-    <div class="flex justify-center">
-    
-        <div class="flex flex-col gap-8 sm:gap-8 md:gap-10">
-            <h1 class="text-center text-DDS-blue font-arial-rounded font-bold text-3xl md:text-4xl">Principal's Message</h1>
-            <img src="{{ asset('pictures/Shahzada Dawood.jpeg') }}" class="rounded-full border-2 border-DDS-blue w-[12rem] sm:w-[16rem] md:w-[20rem] mx-auto">
-            <p class="px-14 sm:px-16 md:px-24 font-arial-rounded font-normal text-justify">
-                Deerwalk Dhading School(DDS) is dedicated to nurturing inspired minds.
-
-Within our vibrant campus community, we prioritize the pursuit of knowledge. While maintaining exceptional standards in core academics, our dedication to excellence is evident through our focus on four key pillars of education: Essential Skills, Language Proficiency, Academic Foundations, and Excellence in Extracurricular Activities (ECA).
-
-We acknowledge the inherent potential within every young mind, which can flourish with proper guidance. Through collaborative efforts involving School Management, Students, Parents, and our esteemed Teachers, we aim to unlock the full potential of our students.
-
-We are confident that as responsible citizens, our students will take pride in identifying themselves as DdS Alumni.
-
-            </p>
-            <p class="font-arial-rounded font-bold text-center text-lg md:text-xl">- Nirmal Kumar Paudel<br> Deerwalk Dhading School</p>
-        </div>
-    
-    </div>
 
 </div>
+
+
 
 
 <div class="hidden lg:block">

@@ -6,7 +6,7 @@
 
                     <div class="relative group mt-2">
                         <a href="" id="aboutUsLink" class="font-arial-rounded font-bold text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-2xl">About Us</a>
-                        <div class="absolute hidden bg-white w-48 top-[95%] mt-14 rounded-lg" id="aboutUsDropdown">
+                        <div class="absolute hidden bg-white w-full top-[95%] mt-14 rounded-lg" id="aboutUsDropdown">
                             <a href="#whyDDS" class="block font-arial-rounded font-bold text-gray-700 hover:text-DDS-blue px-4 py-2 lg:text-2xl text-left">Why DDS</a>
                             <a href="#Management" class="block font-arial-rounded font-bold text-gray-700 hover:text-DDS-blue px-4 py-2 lg:text-2xl text-left">Management</a>
                             <a href="#Units" class="block font-arial-rounded font-bold text-gray-700 hover:text-DDS-blue px-4 py-2 lg:text-2xl text-left">Our Units</a>

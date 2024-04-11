@@ -1,39 +1,39 @@
-<div class="mt-8 py-5 flex flex-col gap-2 lg:gap-4 xl:gap-10 justify-center sm:mt-10 md:mt-12 xl:mt-20" id="Admission">
+<div class="mt-11 flex flex-col gap-7 lg:gap-4 xl:gap-10 justify-center sm:mt-10 md:mt-12 xl:mt-20" id="Admission">
 
-    <h1 class="text-DDS-blue text-3xl font-arial-rounded font-bold py-5 text-center md:text-4xl xl:text-5xl">Admission Procedure</h1>
+    <h1 class="text-DDS-blue text-2xl font-arial-rounded font-bold text-center md:text-4xl xl:text-5xl">Admission Procedure</h1>
 
     <div class="flex flex-col place-items-center sm:mt-1 lg:hidden">
 
-        <div class="flex flex-col  gap-8 mx-12">
+        <div class="flex flex-col gap-8 mx-12">
 
             <div class="flex flex-row items-center gap-7 ">
                 <h1 class="text-DDS-blue font-arial-rounded font-bold text-5xl md:text-6xl">01</h1>
-                <p class="font-arial-rounded font-normal md:text-lg text-left">Engage in Open House Sessions or Counselling</p>
+                <p class="font-arial-rounded font-normal text-sm  md:text-lg text-left">Engage in Open House Sessions or Counselling</p>
             </div>
     
             <div class="flex flex-row items-center gap-7 ">
                 <h1 class="text-DDS-blue font-arial-rounded font-bold text-5xl md:text-6xl">02</h1>
-                <p class="font-arial-rounded font-normal md:text-lg text-left">Submit the application form</p>
+                <p class="font-arial-rounded font-normal text-sm md:text-lg text-left">Submit the application form</p>
             </div>
     
             <div class="flex flex-row items-center gap-7 ">
                 <h1 class="text-DDS-blue font-arial-rounded font-bold text-5xl md:text-6xl">03</h1>
-                <p class="font-arial-rounded font-normal md:text-lg text-left">Take the Deerwalk Aptitude Test (DAT)</p>
+                <p class="font-arial-rounded font-normal text-sm md:text-lg text-left">Take the Deerwalk Aptitude Test (DAT)</p>
             </div>
     
             <div class="flex flex-row items-center gap-7 ">
                 <h1 class="text-DDS-blue font-arial-rounded font-bold text-5xl md:text-6xl">04</h1>
-                <p class="font-arial-rounded font-normal md:text-lg text-left">Participate in Parent-Teacher Interaction</p>
+                <p class="font-arial-rounded font-normal text-sm md:text-lg text-left">Participate in Parent-Teacher Interaction</p>
             </div>
     
             <div class="flex flex-row items-center gap-7 ">
                 <h1 class="text-DDS-blue font-arial-rounded font-bold text-5xl md:text-6xl">05</h1>
-                <p class="font-arial-rounded font-normal md:text-lg text-left">Receive Admission Open Letter</p>
+                <p class="font-arial-rounded font-normal text-sm md:text-lg text-left">Receive Admission Open Letter</p>
             </div>
     
             <div class="flex flex-row items-center gap-7 ">
                 <h1 class="text-DDS-blue font-arial-rounded font-bold text-5xl md:text-6xl">06</h1>
-                <p class="font-arial-rounded font-normal md:text-lg lg:text-xl text-left">Confirm Admission</p>
+                <p class="font-arial-rounded font-normal text-sm md:text-lg lg:text-xl text-left">Confirm Admission</p>
             </div>
 
         </div>
