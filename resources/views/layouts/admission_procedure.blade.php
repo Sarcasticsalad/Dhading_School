@@ -1,4 +1,4 @@
-<div class="mt-11 flex flex-col gap-7 lg:gap-4 xl:gap-10 justify-center sm:mt-10 md:mt-12 xl:mt-20" id="Admission">
+<div class="flex flex-col gap-7 sm:gap-10 md:gap-12 lg:gap-4 xl:gap-10 justify-center mt-11 sm:mt-14 md:mt-16 xl:mt-20" id="Admission">
 
     <h1 class="text-DDS-blue text-2xl font-arial-rounded font-bold text-center md:text-4xl xl:text-5xl">Admission Procedure</h1>
 

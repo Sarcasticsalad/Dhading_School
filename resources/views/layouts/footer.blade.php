@@ -57,10 +57,10 @@
 
 <div class="block lg:hidden">
 
-    <div class="flex flex-col gap-5 justify-start">
+    <div class="flex flex-col gap-5  justify-start">
 
         <div class="pt-7 pl-7">
-            <p class="font-arial-rounded font-normal text-sm text-white">Contact Us</p>
+            <p class="font-arial-rounded font-normal text-sm sm:text-base text-white">Contact Us</p>
         </div>
 
         <div class="flex flex-col gap-3">
@@ -95,15 +95,15 @@
         </div>    
     </div>
 
-    <div class="pt-9 pl-7">
+    <div class="pt-9 pl-6">
         <img src="{{ asset('pictures/DDS white.png') }}" class="w-[8.6rem]">
     </div>
     
     <div class="flex flex-row gap-1 items-center pl-7 pt-6">
-        <p class="text-base text-white md:text-sm xl:text-base 2xl:text-xltext-white">©</p>
+        
         <div class="flex flex-col">
             <p class="text-xs/4 text-white md:text-sm xl:text-base 2xl:text-xl text-center">2024 Deerwalk Dhading School.</p>
-            <p class="text-xs/4 text-white md:text-sm xl:text-base 2xl:text-xl">All Rights Reserved.</p>
+            <p class="text-xs/4 text-white md:text-sm xl:text-base 2xl:text-xl">© All Rights Reserved.</p>
         </div>
     </div>
     

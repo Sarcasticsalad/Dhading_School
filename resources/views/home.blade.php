@@ -18,11 +18,11 @@
     <img src="{{ asset('pictures/ARCHI_DDS.png') }}" class="object-cover min-h-screen min-w-screen ">
    </div>
 
-   <div class="mt-11 flex justify-center sm:mt-12 md:mt-16 lg:mt-20 xl:mt-28">
+   <div class="mt-11 flex justify-center sm:mt-14 md:mt-16 lg:mt-20 xl:mt-28">
     @include('layouts.schools')
    </div>
 
-   <div class="flex justify-center mt-11 sm:mt-20 md:mt-24 lg:mt-28 xl:mt-40">
+   <div class="flex justify-center mt-11 sm:mt-14 md:mt-16 lg:mt-28 xl:mt-40">
     @include('layouts.chooseDSS')
    </div>
 
@@ -41,7 +41,7 @@
     @include('layouts.admission_procedure')
    </div>
 
-   <div class="mt-11 2xl:mt-32" id="Management">
+   <div class="mt-11 sm:mt-14 md:mt-16 2xl:mt-32" id="Management">
       @include('layouts.founder_messages')
    </div>
 
@@ -54,14 +54,14 @@
    </div>
 
    <div class=" mt-11 md:mt-20 lg:mt-20 xl:mt-28 2xl:mt-36">
-       <a href="https://dlc.dwit.edu.np/"><img src="{{ asset('pictures/DLC banner.jpg') }}" class="object-cover lg:rounded-3xl lg:mx-3"></a> 
+       <a href="https://dlc.dwit.edu.np/"><img src="{{ asset('pictures/DLC banner.jpg') }}" class="min-w-screen lg:rounded-3xl lg:mx-3"></a> 
    </div>
 
-   <div class="mt-11 flex justify-center w-screen">
+   <div class="mt-11 flex justify-center min-w-screen">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.1512244635464!2d85.3399280751816!3d27.712616776179456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1970d2e43e4b%3A0x946fac63019d2903!2sDeerwalk%20Institute%20of%20Technology!5e0!3m2!1sen!2snp!4v1712567217265!5m2!1sen!2snp" width="2720" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
    </div>
 
-   <footer class="bg-DDS-blue">
+   <footer class="bg-DDS-blue" id='Footer'>
     @include('layouts.footer')
    </footer>
 

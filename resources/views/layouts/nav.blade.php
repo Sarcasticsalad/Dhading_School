@@ -15,7 +15,7 @@
                     <a href="#Schools" class="font-arial-rounded font-bold text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-2xl">Academics</a>
                     <a href="#Admission" class="font-arial-rounded font-bold  text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-2xl">Admission</a>
                     <a href="#Courses" class="font-arial-rounded font-bold text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-2xl">Courses</a>
-                    <a href="" class="font-arial-rounded font-bold text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-2xl">Contact</a>
+                    <a href="#Footer" class="font-arial-rounded font-bold text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-2xl">Contact</a>
                 </div>
         </div>
         
