@@ -9,7 +9,7 @@ export default {
   theme: {
     fontFamily:{
       
-      'arial-rounded': ['"Arial Rounded MT"', 'sans-serif'],
+      'arial-rounded': ['Arial Rounded MT', 'sans-serif'],
     
     },
   

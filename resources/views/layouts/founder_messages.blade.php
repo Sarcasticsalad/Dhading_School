@@ -2,9 +2,9 @@
 
     <div class="flex justify-center">
 
-        <div class="flex flex-col gap-8 sm:gap-10 md:gap-12">
+        <div class="flex flex-col gap-8 sm:gap-10 md:gap-12 ">
             <h1 class="text-center text-DDS-blue font-arial-rounded font-bold text-2xl md:text-4xl">Founder's Greetings</h1>
-            <img src="{{ asset('pictures/Shahzada Dawood.jpeg') }}" class="rounded-full border-2 border-DDS-blue w-[12rem] sm:w-[16rem] md:w-[20rem] mx-auto">
+            <img src="{{ asset('pictures/rudrasir.png') }}" class="rounded-full border-2 border-DDS-blue w-[14rem] h-[14rem] sm:w-[16rem] sm:h-[16rem] md:w-[20rem] md:h-[20rem]  mx-auto object-cover">
             <p class="px-14 sm:px-16 md:px-24 font-arial-rounded font-normal text-justify">
                 At Sifal School, we take a holistic approach to education. While we strive for excellence in academics, our mission extends beyond that: We teach our students the soft and hard skills they need to become confident and curious citizens of the world.
 
@@ -28,7 +28,7 @@
     
         <div class="flex flex-col gap-8 sm:gap-8 md:gap-10">
             <h1 class="text-center text-DDS-blue font-arial-rounded font-bold text-2xl md:text-4xl">Principal's Message</h1>
-            <img src="{{ asset('pictures/Shahzada Dawood.jpeg') }}" class="rounded-full border-2 border-DDS-blue w-[12rem] sm:w-[16rem] md:w-[20rem] mx-auto">
+            <img src="{{ asset('pictures/Nirmal_sir.png') }}" class="rounded-full border-2 border-DDS-blue w-[14rem] h-[14rem] sm:w-[16rem] sm:h-[16rem] md:w-[20rem] md:h-[20rem]  mx-auto object-cover">
             <p class="px-14 sm:px-16 md:px-24 font-arial-rounded font-normal text-justify">
                 Deerwalk Dhading School (DDS) is committed to fostering a culture of learning and inspiration. 
                 Our campus community places a strong emphasis on knowledge acquisition while upholding high standards in academics. 
@@ -46,7 +46,7 @@
     
         <div class="flex flex-col gap-8 sm:gap-8 md:gap-10">
             <h1 class="text-center text-DDS-blue font-arial-rounded font-bold text-2xl md:text-4xl">Principal's Message</h1>
-            <img src="{{ asset('pictures/Shahzada Dawood.jpeg') }}" class="rounded-full border-2 border-DDS-blue w-[12rem] sm:w-[16rem] md:w-[20rem] mx-auto">
+            <img src="{{ asset('pictures/bijayasir.png') }}" class="rounded-full border-2 border-DDS-blue w-[14rem] h-[14rem] sm:w-[16rem] sm:h-[16rem] md:w-[20rem] md:h-[20rem]  mx-auto object-cover pr-">
             <p class="px-14 sm:px-16 md:px-24 font-arial-rounded font-normal text-justify">
                 I bring a wealth of experience in Information Technology (IT) to my role as School Principal, holding an MTech degree from Kathmandu University's School of Engineering and benefiting from the Erasmus Mundus Scholarship for advanced studies in Italy.
 
@@ -73,7 +73,7 @@
 
         <div class="flex flex-row justify-center lg:gap-14 lg:mx-20 2xl:gap-20 2xl:mx-24">
     
-            <img src="{{ asset('pictures/Shahzada Dawood.jpeg') }}" class="rounded-full lg:mt-9 2xl:mt-4 lg:w-[30%] lg:h-[30%] xl:w-[38%] xl:[38%] 2xl:w-[40rem] 2xl:h-[40rem] border-4 border-DDS-blue">
+            <img src="{{ asset('pictures/rudrasir.png') }}" class="rounded-full lg:mt-9 2xl:mt-4 lg:w-[30%] lg:h-[30%] xl:w-[38%] xl:[38%] 2xl:w-[40rem] 2xl:h-[40rem] border-4 border-DDS-blue">
     
             <div class="flex flex-col lg:mt-10 lg:w-3/5 lg:gap-10 2xl:gap-20">
                <h1 class="text-DDS-blue text-3xl font-arial-rounded font-bold xl:text-4xl 2xl:text-5xl">Founder's Greetings</h1>
@@ -100,7 +100,7 @@
 
         <div class="flex flex-row justify-center lg:gap-14 lg:mx-20 2xl:gap-20 2xl:mx-24">
     
-            <img src="{{ asset('pictures/Shahzada Dawood.jpeg') }}" class="rounded-full lg:mt-9 lg:w-[30%] lg:h-[30%] xl:w-[38%] xl:[38%] 2xl:w-[40rem] 2xl:h-[40rem] border-4 border-DDS-blue">
+            <img src="{{ asset('pictures/Nirmal_sir.png') }}" class="rounded-full lg:mt-9 lg:w-[30%] lg:h-[30%] xl:w-[38%] xl:[38%] 2xl:w-[40rem] 2xl:h-[40rem] border-4 border-DDS-blue">
     
             <div class="flex flex-col lg:mt-10 lg:w-3/5 lg:gap-10 2xl:mt-20">
                <h1 class="text-DDS-blue font-arial-rounded font-bold text-3xl xl:text-4xl 2xl:text-5xl">Principal's Message</h1>
@@ -134,7 +134,7 @@
                <p class="font-arial-rounded font-bold text-xl xl:text-2xl 2xl:text-3xl">-Bijay Shrestha<br> Principal-Deerwalk Sifal School</p> 
             </div>
     
-            <img src="{{ asset('pictures/Shahzada Dawood.jpeg') }}" class="rounded-full lg:mt-10 lg:w-[30%] lg:h-[30%] xl:w-[38%] xl:[38%] 2xl:w-[40rem] 2xl:h-[40rem] border-4 border-DDS-blue">
+            <img src="{{ asset('pictures/bijayasir.png') }}" class="rounded-full lg:mt-10 lg:w-[30%] lg:h-[30%] xl:w-[38%] xl:[38%] 2xl:w-[40rem] 2xl:h-[40rem] border-4 border-DDS-blue">
         
         </div>
     

@@ -1,8 +1,8 @@
 <div class="hidden lg:block">
 
-    <div class="flex flex-col gap-10 md:pl-8 md:gap-10 lg:pr-20 lg:gap-14 xl:gap-16 2xl:gap-20 w-full" >
+    <div class="flex flex-col gap">
 
-        <div class="flex flex-row flex-wrap justify-center gap-10 md:justify-around md:pl-8 lg:pl-24">
+        <div class="flex flex-row flex-wrap gap-10 md:justify-around md:pl-8 lg:pl-24">
     
             <div class="flex flex-col md:gap-3 lg:gap-4 xl:gap-5 2xl:gap-7">
                 <p class="md:text-base xl:text-xl 2xl:text-2xl text-white font-semibold text-center">Why DDS</p>
@@ -24,10 +24,11 @@
         
         </div>
         
+
         <div class="flex flex-col gap-4  md:flex-row md:justify-around lg:px-16">
         
             <div class=" flex items-center justify-center">
-                <img src="{{ asset('pictures/DDS white.png') }}" class="object-fit w-[10rem] md:w-[12rem] lg:w-[14rem] xl:w-[16rem] 2xl:w-[20rem]">
+                <img src="{{ asset('pictures/DDS white.png') }}" class="object-fit w-[10rem] md:w-[12rem] lg:w-[14rem] xl:w-[16rem] 2xl:w-52">
             </div>
         
             <div class="flex justify-center gap-2 lg:flex-row items-center md:gap-2 lg:gap-2 xl:pl-16 xl:gap-2 2xl:gap-4">

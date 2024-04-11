@@ -9,13 +9,13 @@
     <link href="/resources/css/fonts.css">
     @vite('resources/css/app.css')
 </head>
-<body>
-   <header class="bg-white sticky top-0 z-10 shadow-md pb-7"> 
+<body class="overflow-x-hidden">
+   <header class="bg-white sticky top-0 z-10 shadow-md "> 
     @include('layouts.nav')
    </header>
 
    <div>
-    <img src="{{ asset('pictures/ARCHI_DDS.png') }}" class="object-cover min-h-screen min-w-screen ">
+    <img src="{{ asset('pictures/ARCHI_DDS.png') }}" class="object-cover h-screen w-screen">
    </div>
 
    <div class="mt-11 flex justify-center sm:mt-14 md:mt-16 lg:mt-20 xl:mt-28">
@@ -26,11 +26,11 @@
     @include('layouts.chooseDSS')
    </div>
 
-   <div class="flex justify-center mt-11 mx-3 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-24">
+   <div class="flex justify-center mt-11 mx-3 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-24 ">
       {{-- <div class="hidden md:block">
          
       </div> --}}
-      <img src="{{ asset('pictures/school_analytics.png') }}" class="object-cover w-full h-full">
+      <img src="{{ asset('pictures/school_analytics.png') }}" class="object-cover w-[83rem] h-full">
       {{-- <div class="md:hidden block">
          <img src="{{ asset('pictures/Analytics mobile.png') }}" class="w-full object-cover">
       </div> --}}
@@ -53,8 +53,8 @@
     @include('layouts.units')
    </div>
 
-   <div class=" mt-11 md:mt-20 lg:mt-20 xl:mt-28 2xl:mt-36">
-       <a href="https://dlc.dwit.edu.np/"><img src="{{ asset('pictures/DLC banner.jpg') }}" class="min-w-screen lg:rounded-3xl lg:mx-3"></a> 
+   <div class=" mt-11 md:mt-20 lg:mt-20 xl:mt-28 2xl:mt-36 2xl:mx-5">
+       <a href="https://dlc.dwit.edu.np/"><img src="{{ asset('pictures/DLC banner.jpg') }}" class="2xl:object-scale-down lg:rounded-3xl"></a> 
    </div>
 
    <div class="mt-11 flex justify-center min-w-screen">
