@@ -1,53 +1,53 @@
-<div class="hidden lg:block">
+<div class="hidden lg:block pt-10">
 
-    <div class="flex flex-col gap">
+    <div class="flex flex-col xl:gap-16 2xl:gap-20">
 
-        <div class="flex flex-row flex-wrap gap-10 md:justify-around md:pl-8 lg:pl-24">
+        <div class="flex flex-row justify-around">
     
-            <div class="flex flex-col md:gap-3 lg:gap-4 xl:gap-5 2xl:gap-7">
-                <p class="md:text-base xl:text-xl 2xl:text-2xl text-white font-semibold text-center">Why DDS</p>
-                <p class="md:text-base xl:text-xl 2xl:text-2xl text-white font-semibold text-center">Our Units</p>
-                <p class="md:text-base xl:text-xl 2xl:text-2xl text-white font-semibold text-center">Management</p>
+            <div class="flex flex-col md:gap-3 lg:gap-4 xl:gap-6 2xl:gap-10">
+              <a href="#whyDDS"><p class="font-arial-rounded md:text-xs xl:text-sm 2xl:text-base text-white font-semibold text-left">Why DDS</p></a>      
+              <a href="#Management"><p class="font-arial-rounded md:text-xs xl:text-sm 2xl:text-base text-white font-semibold text-left">Our Units</p></a>  
+              <a href="#Units"><p class="font-arial-rounded md:text-xs xl:text-sm 2xl:text-base text-white font-semibold text-left">Management</p></a>  
             </div>
         
-            <div class="flex flex-col md:gap-3 lg:gap-4 xl:gap-5 2xl:gap-7">
-                <p class="md:text-base xl:text-xl 2xl:text-2xl text-white font-semibold text-center">Courses</p>
-                <p class="md:text-base xl:text-xl 2xl:text-2xl text-white font-semibold text-center">Academics</p>
-                <p class="md:text-base xl:text-xl 2xl:text-2xl text-white font-semibold text-center">Admission</p>
+            <div class="flex flex-col  ml-14 md:gap-3 lg:gap-4 xl:gap-6 2xl:gap-10">
+              <a href=""><p class="font-arial-rounded md:text-xs xl:text-sm 2xl:text-base text-white font-semibold text-left">Courses</p></a>   
+              <a href=""><p class="font-arial-rounded md:text-xs xl:text-sm 2xl:text-base text-white font-semibold text-left">Academics</p></a>   
+              <a href=""><p class="font-arial-rounded md:text-xs xl:text-sm 2xl:text-base text-white font-semibold text-left">Admission</p></a>   
             </div>
         
-            <div class="flex flex-col md:gap-3 lg:gap-4 xl:gap-5">
-                <p class="md:text-base xl:text-lg 2xl:text-2xl text-white  text-center">Dhunibesi-9, Dhading, Nepal</p>
-                <p class="md:text-base xl:text-lg 2xl:text-2xl text-white  text-center">01-459149 , 9851064445</p>
-                <p class="md:text-base xl:text-lg 2xl:text-2xl text-white  text-center">contact@deerwalk.edu.np</p>
+            <div class="flex flex-col md:gap-3 lg:gap-4 xl:gap-6 2xl:gap-10">
+                <p class="font-arial-rounded md:text-xs xl:text-sm 2xl:text-base text-white  text-left">Dhunibesi-9, Dhading, Nepal</p>
+                <p class="font-arial-rounded md:text-xs xl:text-sm 2xl:text-base text-white  text-left">01-459149 , 9851064445</p>
+                <p class="font-arial-rounded md:text-xs xl:text-sm 2xl:text-base text-white  text-left">contact@deerwalk.edu.np</p>
             </div>
         
         </div>
         
 
-        <div class="flex flex-col gap-4  md:flex-row md:justify-around lg:px-16">
+        <div class="flex flex-col gap-4 md:flex-row md:justify-around 2xl:mb-8">
         
             <div class=" flex items-center justify-center">
-                <img src="{{ asset('pictures/DDS white.png') }}" class="object-fit w-[10rem] md:w-[12rem] lg:w-[14rem] xl:w-[16rem] 2xl:w-52">
+                <img src="{{ asset('pictures/DDS white.png') }}" class="object-fit w-[10rem] md:w-[12rem] lg:w-[14rem] xl:w-[12rem] 2xl:w-52">
             </div>
         
             <div class="flex justify-center gap-2 lg:flex-row items-center md:gap-2 lg:gap-2 xl:pl-16 xl:gap-2 2xl:gap-4">
     
-                <p class="font-arial-rounded font-normal text-base md:text-lg lg:text-xl xl:text-xl 2xl:text-3xl text-white">©</p>
+                
                 <div class="flex flex-col">
-                    <p class="font-arial-rounded font-normal text-xs/4 text-white md:text-sm xl:text-base 2xl:text-xl">2024 Deerwalk Dhading School.</p>
-                    <p class="font-arial-rounded font-normal text-xs/4 text-white md:text-sm xl:text-base 2xl:text-xl">All Rights Reserved.</p>
+                    
+                    <p class="font-arial-rounded font-normal text-xs/4 text-white md:text-sm xl:text-sm 2xl:text-base">© 2024 Deerwalk Dhading School.</p>
+                    <p class="font-arial-rounded font-normal text-xs/4 text-white md:text-sm xl:text-sm 2xl:text-base">All Rights Reserved.</p>
                 </div>
     
             </div>
             
         
-            <div class="flex justify-center gap-3 lg:flex-row md:gap-4 lg:gap-4 xl:gap-7 2xl:gap-8 lg:justify-center items-center md:pr-16 lg:pr-4 xl:pl-10 2xl:pr-5">
-                <img src="{{ asset('pictures/instagram.png') }}" class="w-4 md:w-7 lg:object-scale-down lg:w-7 xl:object-contain xl:w-[2.5rem] 2xl:w-[2.8rem] items-center">
-                <img src="{{ asset('pictures/facebook-app-symbol.png') }}" class="w-4 md:w-7 lg:object-scale-down lg:w-7 xl:object-contain xl:w-[2.5rem] 2xl:w-[2.8rem] items-center">
-                <img src="{{ asset('pictures/youtube.png') }}" class="w-4 md:w-7 lg:object-scale-down lg:w-7 xl:object-contain xl:w-[2.5rem] 2xl:w-[2.8rem] items-center">
-                <img src="{{ asset('pictures/linkedin.png') }}" class="w-4 md:w-7 lg:object-scale-down lg:w-6 xl:object-contain  xl:w-[2rem] 2xl:w-[2.3rem] items-center">
-            </div>
+            <div class="flex justify-center gap-3 lg:flex-row md:gap-4 lg:gap-4 xl:gap-7 2xl:gap-6 lg:justify-center items-center md:pr-16 lg:pr-4 xl:pl-10 xl:mr-16 2xl:mr-16">
+                <a href="https://www.instagram.com/deerwalk_dhading_school/"><img src="{{ asset('pictures/instagram.png') }}" class="w-5 xl:w-7 2xl:w-9 cursor-pointer"></a>  
+                <a href="https://www.facebook.com/profile.php?id=61557434263234"><img src="{{ asset('pictures/facebook-app-symbol.png')}}" class="w-5 xl:w-7 2xl:w-9 cursor-pointer"></a>  
+                <a href=""><img src="{{ asset('pictures/youtube.png') }}" class="w-5 xl:w-7 2xl:w-9 cursor-pointer"></a>  
+                <a href="https://www.linkedin.com/company/deerwalk-dhading-school/"><img src="{{ asset('pictures/linkedin.png') }}" class="w-5 xl:w-7 2xl:w-9 cursor-pointer"></a>    
         
         </div>
     

@@ -18,11 +18,11 @@
     <img src="{{ asset('pictures/ARCHI_DDS.png') }}" class="object-cover h-screen w-screen">
    </div>
 
-   <div class="mt-11 flex justify-center sm:mt-14 md:mt-16 lg:mt-20 xl:mt-28">
+   <div class="mt-11 flex justify-center sm:mt-14 md:mt-16 lg:mt-20 xl:mt-24">
     @include('layouts.schools')
    </div>
 
-   <div class="flex justify-center mt-11 sm:mt-14 md:mt-16 lg:mt-28 xl:mt-40">
+   <div class="flex justify-center mt-11 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-24">
     @include('layouts.chooseDSS')
    </div>
 
@@ -30,7 +30,7 @@
       {{-- <div class="hidden md:block">
          
       </div> --}}
-      <img src="{{ asset('pictures/school_analytics.png') }}" class="object-cover w-[83rem] h-full">
+      <img src="{{ asset('pictures/school_analytics.png') }}" class="object-cover w-[83rem] lg:w-[76rem] h-full">
       {{-- <div class="md:hidden block">
          <img src="{{ asset('pictures/Analytics mobile.png') }}" class="w-full object-cover">
       </div> --}}

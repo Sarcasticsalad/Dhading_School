@@ -1,14 +1,14 @@
-<div class="flex flex-col gap-7 sm:gap-10 md:gap-12 lg:gap-11 xl:gap-6" id="whyDDS">
+<div class="flex flex-col gap-7 sm:gap-10 md:gap-12 lg:gap-16 xl:gap-16" id="whyDDS">
 
-    <h1 class="text-DDS-blue font-arial-rounded font-bold text-2xl text-center md:text-4xl xl:text-5xl">Why Choose DSS?</h1>
+    <h1 class="text-DDS-blue font-arial-rounded font-bold text-2xl text-center md:text-4xl xl:text-4xl">Why Choose DSS?</h1>
 
     <div class="hidden lg:block">
 
-        <div class=" flex flex-col gap-6 lg:gap-3 xl:gap-4 xl:mt-8">
+        <div class=" flex flex-col gap-6 lg:gap-3 xl:gap-4">
         
             <div class="flex flex-col gap-6 lg:flex-row lg:gap-3 xl:flex-row xl:gap-4">
 
-                <div class="flex flex-col gap-5 2xl:gap-8 md:p-10 lg:p-6 xl:p-10 2xl:p-8 border-8 border-DDS-blue rounded-3xl w-[20rem] h-[19rem] sm:w-[28rem] sm:h-[16rem] md:w-[40rem] md:h-[23rem] lg:w-[30rem] lg:h-[20rem] xl:w-[39rem] xl:h-[30rem] 2xl:w-[30rem] 2xl:h-[20rem]">
+                <div class="flex flex-col gap-5 2xl:gap-8 md:p-10 lg:p-6 xl:p-10 2xl:p-8 border-8 border-DDS-blue rounded-3xl w-[20rem] h-[19rem] sm:w-[28rem] sm:h-[16rem] md:w-[40rem] md:h-[23rem] lg:w-[30rem] lg:h-[20rem] xl:w-[39rem] xl:h-[20rem] 2xl:w-[30rem] 2xl:h-[20rem]">
                     <div class="flex flex-row justify-between">
                         <h1 class="font-arial-rounded font-bold text-DDS-blue text-2xl md:text-3xl lg:text-3xl 2xl:text-2xl">Essential Skills</h1>
                         <img src="{{ asset('pictures/skills-blue.png') }}" class="h-[2rem] sm:h-[1.8rem] sm:mt-0.5 md:h-[2rem] md:mt-0 md:mr-16 xl:pr-9 xl:mr-10 xl:h-[2.7rem] 2xl:h-[2rem]">
@@ -24,7 +24,7 @@
                 </div>
 
 
-                <div class="flex flex-col gap-5 xl:gap-3 2xl:gap-8 md:p-10 lg:p-6 xl:p-10 2xl:p-8 bg-DDS-blue rounded-3xl border-8 border-DDS-blue w-[20rem] h-[19rem] sm:w-[28rem] sm:h-[16rem] md:w-[40rem] md:h-[23rem] lg:w-[30rem] lg:h-[20rem] xl:w-[39rem] xl:h-[30rem] 2xl:w-[30rem] 2xl:h-[20rem]">
+                <div class="flex flex-col gap-5 xl:gap-3 2xl:gap-8 md:p-10 lg:p-6 xl:p-10 2xl:p-8 bg-DDS-blue rounded-3xl border-8 border-DDS-blue w-[20rem] h-[19rem] sm:w-[28rem] sm:h-[16rem] md:w-[40rem] md:h-[23rem] lg:w-[30rem] lg:h-[20rem] xl:w-[39rem] xl:h-[20rem] 2xl:w-[30rem] 2xl:h-[20rem]">
                     <div class="flex flex-row justify-between">
                         <h1 class="font-arial-rounded font-bold text-2xl text-white md:text-3xl lg:text-3xl 2xl:text-2xl">Language Skills</h1>
                         <img src="{{ asset('pictures/language_icon.png') }}" class="h-[2rem] mr-10 sm:h-[1.8rem] sm:mt-0.5 md:h-[2rem] md:mt-0 md:mr-16 xl:pr-9 xl:mr-4 xl:h-[2.7rem] 2xl:h-[2.3rem]"> 
@@ -43,7 +43,7 @@
             
                 <div class="flex flex-col gap-6 lg:flex-row lg:gap-3 xl:flex-row xl:gap-4">
     
-                    <div class=" flex flex-col gap-5 2xl:gap-8 lg:p-6 xl:p-10 2xl:p-8 border-DDS-blue border-8 rounded-3xl w-[20rem] h-[19rem] sm:w-[28rem] sm:h-[16rem] md:w-[32rem] md:h-[20rem] lg:w-[30rem] lg:h-[20rem] lg:bg-DDS-blue xl:w-[39rem] xl:h-[30rem] 2xl:w-[30rem] 2xl:h-[20rem] ">
+                    <div class=" flex flex-col gap-5 2xl:gap-8 lg:p-6 xl:p-10 2xl:p-8 border-DDS-blue border-8 rounded-3xl w-[20rem] h-[19rem] sm:w-[28rem] sm:h-[16rem] md:w-[32rem] md:h-[20rem] lg:w-[30rem] lg:h-[20rem] lg:bg-DDS-blue xl:w-[39rem] xl:h-[20rem] 2xl:w-[30rem] 2xl:h-[20rem] ">
                         <div class="flex flex-row justify-between">
                             <h1 class="font-arial-rounded font-bold text-2xl md:text-3xl lg:text-3xl 2xl:text-2xl text-DDS-blue lg:text-white xl:mt-3">Academic Fundamentals</h1>
                             <img src="{{ asset('pictures/fundamentals_icon.png') }}" class="h-[2.5rem] mr-10 sm:h-[1.8rem] sm:mt-0.5 md:h-[2rem] md:mt-2 md:mr-16 xl:pr-9 xl:mr-1 xl:h-[2.7rem] 2xl:h-[2.3rem] hidden lg:block">
@@ -61,7 +61,7 @@
                     </div>
     
                     
-                    <div class=" flex flex-col gap-5 2xl:gap-8 lg:p-6 xl:p-10 2xl:p-8 rounded-3xl lg:border-DDS-blue w-[20rem] h-[19rem] sm:w-[28rem] sm:h-[16rem] md:w-[32rem] md:h-[20rem] lg:w-[30rem] lg:h-[20rem] lg:border-8 xl:w-[39rem] xl:h-[29rem] 2xl:w-[30rem] 2xl:h-[20rem]">
+                    <div class=" flex flex-col gap-5 2xl:gap-8 lg:p-6 xl:p-10 2xl:p-8 rounded-3xl lg:border-DDS-blue w-[20rem] h-[19rem] sm:w-[28rem] sm:h-[16rem] md:w-[32rem] md:h-[20rem] lg:w-[30rem] lg:h-[20rem] lg:border-8 xl:w-[39rem] xl:h-[20rem] 2xl:w-[30rem] 2xl:h-[20rem]">
                         <div class="flex flex-row justify-between">
                             <h1 class="font-arial-rounded font-bold text-2xl md:text-3xl lg:text-3xl 2xl:text-2xl text-white lg:text-DDS-blue">Extra Curricular Activities</h1>
                             <img src="{{ asset('pictures/flask-blue.png') }}" class="h-[2.5rem] mr-10 sm:h-[1.8rem] sm:mt-0.5 md:h-[2rem] md:mt-0 md:mr-16 xl:h-[2.7rem] 2xl:h-[2.3rem] hidden lg:block">
@@ -85,7 +85,7 @@
     
     <div class="lg:hidden block">
 
-        <div class=" flex flex-col gap-6 sm:gap-8 md:gap-10 lg:gap-3 xl:gap-4 xl:mt-8">
+        <div class=" flex flex-col gap-6 sm:gap-8 md:gap-10 lg:gap-3 xl:gap-4">
         
             <div class="flex flex-col justify-center items-center gap-6 sm:gap-8 lg:flex-row lg:gap-3 xl:flex-row xl:gap-4">
 

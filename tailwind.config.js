@@ -4,12 +4,11 @@ export default {
     "./resources/**/*.blade.php",
     "./resources/**/*.js",
     "./resources/**/*.vue",
-    "./public/assets/fonts/Arial_Rounded_MT/*.{ttf,woff,woff2}",
   ],
   theme: {
     fontFamily:{
       
-      'arial-rounded': ['Arial Rounded MT', 'sans-serif'],
+      'arial-rounded': ['Arial Rounded MT Regular', 'sans-serif'],
     
     },
   
