@@ -8,7 +8,8 @@ export default {
   theme: {
     fontFamily:{
       
-      'arial-rounded': ['Arial Rounded MT Regular', 'sans-serif'],
+      'arialBold': ['Arial Rounded MT Bold', 'sans-serif'],
+      'arialRegular' : ['Arial Rounded MT Regular', 'sans-serif'],
     
     },
   

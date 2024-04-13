@@ -1,7 +1,7 @@
 <div class="flex flex-col mt-11 sm:mt-14 md:mt-16 xl:mt-32 gap-8 sm:gap-14 md:gap-16 lg:gap-16 2xl:gap-20" id="Units">
 
     <div class="flex justify-center">
-        <h1 class="text-DDS-blue font-arial-rounded font-bold text-2xl md:text-4xl lg:4xl 2xl:text-4xl">Our Units</h1>
+        <h1 class="text-DDS-blue font-arialBold font-bold text-2xl md:text-4xl lg:4xl 2xl:text-4xl">Our Units</h1>
     </div>
     
     <div class="flex flex-col gap-12 items-center md:hidden lg:flex lg:flex-row lg:justify-evenly px-14">

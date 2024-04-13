@@ -5,17 +5,17 @@
                 <div class="flex flex-col pt-1 gap-8 lg:flex-col lg:gap-8 lg:mr-8 xl:flex-row xl:justify-end xl:pr-3">
 
                     <div class="mt-2">
-                        <a href="" id="aboutUsLink" class="font-arial-rounded font-bold text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-base">About Us</a>
+                        <a href="" id="aboutUsLink" class="font-arialBold font-bold text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-base">About Us</a>
                         <div class="absolute hidden border-2 border-DDS-blue bg-white w-36 lg:mt-6 xl:mt-6 2xl:mt-6" id="aboutUsDropdown">
-                            <a href="#whyDDS" class="block font-arial-rounded font-bold text-gray-700 hover:text-DDS-blue px-4 py-2 lg:text-base text-left">Why DDS</a>
-                            <a href="#Management" class="block font-arial-rounded font-bold text-gray-700 hover:text-DDS-blue px-4 py-2 lg:text-base text-left">Management</a>
-                            <a href="#Units" class="block font-arial-rounded font-bold text-gray-700 hover:text-DDS-blue px-4 py-2 lg:text-base text-left">Our Units</a>
+                            <a href="#whyDDS" class="block font-arialBold font-bold text-gray-700 hover:text-DDS-blue px-4 py-2 lg:text-base text-left">Why DDS</a>
+                            <a href="#Management" class="block font-arialBold font-bold text-gray-700 hover:text-DDS-blue px-4 py-2 lg:text-base text-left">Management</a>
+                            <a href="#Units" class="block font-arialBold font-bold text-gray-700 hover:text-DDS-blue px-4 py-2 lg:text-base text-left">Our Units</a>
                         </div>
                     </div>
-                    <a href="#Schools" class="font-arial-rounded font-bold text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-base">Academics</a>
-                    <a href="#Admission" class="font-arial-rounded font-bold  text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-base">Admission</a>
-                    <a href="#Courses" class="font-arial-rounded font-bold text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-base">Courses</a>
-                    <a href="#Footer" class="font-arial-rounded font-bold text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-base">Contact</a>
+                    <a href="#Schools" class="font-arialBold font-bold text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-base">Academics</a>
+                    <a href="#Admission" class="font-arialBold font-bold  text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-base">Admission</a>
+                    <a href="#Courses" class="font-arialBold font-bold text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-base">Courses</a>
+                    <a href="#Footer" class="font-arialBold font-bold text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-base">Contact</a>
                 </div>
         </div>
         

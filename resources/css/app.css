@@ -3,10 +3,15 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Arial Rounded MT Regular";
+    font-family: "Arial Rounded MT Bold";
     src: url('/public/assets/fonts/arial-rounded-mt/ARLRDBD_0.TTF');
 }
 
-*{
+/* *{
     outline: 1px solid black;
+} */
+
+@font-face {
+    font-family: "Arial Rounded MT Regular";
+    src: url('/public/assets/fonts/arial-rounded-mt/ARMTL.ttf');
 }
