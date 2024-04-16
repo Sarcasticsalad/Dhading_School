@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home Page</title>
+    <title>Deerwalk Dhading School</title>
+    <link rel="icon"  href="/public/android-chrome-192x192.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link href="/resources/css/fonts.css">
     @vite('resources/css/app.css')
@@ -58,7 +59,7 @@
    </div>
 
    <div class="mt-11 flex justify-center min-w-screen">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.1512244635464!2d85.3399280751816!3d27.712616776179456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1970d2e43e4b%3A0x946fac63019d2903!2sDeerwalk%20Institute%20of%20Technology!5e0!3m2!1sen!2snp!4v1712567217265!5m2!1sen!2snp" width="2720" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28255.09784256106!2d85.14281347910158!3d27.72076789999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb25dc8f452eaf%3A0xc5ff2d33084a4703!2sDeerwalk%20Dhading%20School!5e0!3m2!1sen!2snp!4v1713259209944!5m2!1sen!2snp" width="2720" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
    </div>
 
    <footer class="bg-DDS-blue" id='Footer'>
@@ -67,7 +68,7 @@
 
    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>   
-   <script src="{{ mix('/resources/js/hamburger.js') }}"></script>
-   <script src="{{ mix('/resources/js/about_us.js') }}"></script>
+   <script src='/resources/js/hamburger.js'></script>
+   <script src="/resources/js/about_us.js"></script>
 </body>
 </html>
