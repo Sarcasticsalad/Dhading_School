@@ -8,9 +8,14 @@
     <link rel="icon"  href="/public/android-chrome-192x192.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link href="/resources/css/fonts.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     @vite('resources/css/app.css'
 )
+=======
+    @vite('resources/css/app.css')
+    @vite(['resources/js/app.js'])
+>>>>>>> 89f26ca498d73d36f6a5cbd103f194b22133b53e
 </head>
 <body class="overflow-x-hidden">
    <header class="bg-white sticky top-0 z-10 shadow-md "> 
@@ -70,7 +75,7 @@
 
    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>   
-   <script src='/resources/js/hamburger.js'></script>
-   <script src="/resources/js/about_us.js"></script>
+   {{-- <script src={{ mix('/resources/js/hamburger.js') }}></script>
+   <script src={{ mix('/resources/js/about_us.js') }}></script> --}}
 </body>
 </html>

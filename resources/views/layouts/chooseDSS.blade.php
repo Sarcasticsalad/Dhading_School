@@ -16,8 +16,8 @@
                     <div>
                         <p class="font-arialRegular  lg:text-normal text-justify">
                             Deerwalk Dhading School believes in equipping its students with all the necessary essential skills. 
-                            These skills encompass active listening, adherence to the 5 R’s of DSS (showing respect for everyone), maintaining a neat dress code, 
-                            and upholding a zero-tolerance policy against bullying, sexist language, and dishonesty. 
+                            These skills encompass active listening, adherence to the 5 R’s of DDS (showing respect for everyone, maintaining a neat dress code, 
+                            and upholding a zero-tolerance policy against bullying, sexist language, and dishonesty). 
 
                         </p>
                     </div>
