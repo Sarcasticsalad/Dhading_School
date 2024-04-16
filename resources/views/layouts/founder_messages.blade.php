@@ -6,7 +6,7 @@
             <h1 class="text-center text-DDS-blue font-arialBold font-bold text-2xl md:text-4xl">Founder's Greetings</h1>
             <img src="{{ asset('pictures/rudrasir.png') }}" class="rounded-full border-2 border-DDS-blue w-[14rem] h-[14rem] sm:w-[16rem] sm:h-[16rem] md:w-[20rem] md:h-[20rem]  mx-auto object-cover">
             <p class="px-14 sm:px-16 md:px-24 font-arialRegular font-normal text-justify">
-                At Sifal School, we take a holistic approach to education. While we strive for excellence in academics, our mission extends beyond that: We teach our students the soft and hard skills they need to become confident and curious citizens of the world.
+                At Dhading School, we take a holistic approach to education. While we strive for excellence in academics, our mission extends beyond that: We teach our students the soft and hard skills they need to become confident and curious citizens of the world.
 
                 We focus on reading, writing and coding. Reading a range of texts — fiction, non-fiction, poetry and beyond — helps students expand their vocabularies and become clearer thinkers and writers.
 
