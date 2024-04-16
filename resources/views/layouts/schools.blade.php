@@ -4,7 +4,7 @@
         <h1 class="text-DDS-blue font-arialBold font-bold text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl">Our Schools</h1>
     </div>
 
-    <div class="flex flex-col justify-center items-center w-screen gap-8 sm:gap-14 lg:gap-28 xl:flex-row xl:gap-16 2xl:gap-20">
+    <div class="flex flex-col justify-center items-center w-screen gap-8 sm:gap-14 lg:gap-28 xl:flex-row xl:gap-16 2xl:gap-32">
 
         <div class="cursor-pointer">
             <div class="relative bg-DDS-blue rounded-xl w-[14rem] h-[16rem] sm:h-[26.8rem] sm:w-[20rem] lg:h-[30.5rem] lg:w-[24rem] xl:w-[23rem] xl:h-[30.9rem] 2xl:w-[19rem] 2xl:h-[28rem]">

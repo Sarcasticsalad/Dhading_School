@@ -37,7 +37,7 @@
 
 
             </p>
-            <p class="font-arialBold font-bold text-center text-lg md:text-xl">- Nirmal Kumar Paudel<br> Deerwalk Dhading School</p>
+            <p class="font-arialBold font-bold text-center text-lg md:text-xl">- Nirmal Kumar Paudel, Deerwalk Dhading School</p>
         </div>
     
     </div>
@@ -56,7 +56,7 @@
 
             </p>
 
-            <p class="font-arialBold font-bold text-center text-lg md:text-xl">- Bijay Shrestha<br>Deerwalk Sifal School </p>
+            <p class="font-arialBold font-bold text-center text-lg md:text-xl">- Bijay Shrestha, Deerwalk Sifal School </p>
         </div>
     
     </div>
@@ -77,7 +77,7 @@
     
             <div class="flex flex-col lg:mt-10 lg:w-3/5 lg:gap-10 2xl:gap-14">
                <h1 class="text-DDS-blue text-3xl font-arialBold font-bold xl:text-4xl 2xl:text-4xl">Founder's Greetings</h1>
-               <p class="text-justify font-arialRegular font-normal xl:text-lg 2xl:text-lg ">
+               <p class="text-justify font-arialRegular font-semibold xl:text-lg 2xl:text-lg ">
                 At Dhading School, we take a holistic approach to education. While we strive for excellence in academics, our mission extends beyond that: We teach our students the soft and hard skills they need to become confident and curious citizens of the world.
 
                 We focus on reading, writing and coding. Reading a range of texts — fiction, non-fiction, poetry and beyond — helps students expand their vocabularies and become clearer thinkers and writers.
@@ -102,7 +102,7 @@
     
             <div class="flex flex-col lg:mt-10 lg:w-3/5 lg:gap-14 ">
                <h1 class="text-DDS-blue font-arialBold font-bold text-3xl xl:text-4xl 2xl:text-4xl">Principal's Message</h1>
-               <p class="text-justify font-arialRegular font-normal xl:text-lg 2xl:text-lg">
+               <p class="text-justify font-arialRegular font-semibold xl:text-lg 2xl:text-lg">
                 Deerwalk Dhading School (DDS) is committed to fostering a culture of learning and inspiration.
 
                 Our campus community places a strong emphasis on knowledge acquisition while upholding high standards in academics. 
@@ -112,7 +112,7 @@
                 With collaborative efforts from School Management, Students, Parents, and Teachers, we strive to unleash the inherent potential in every student, preparing them to become proud DDS Alumni and responsible global citizens.
 
                </p>
-               <p class="font-arialBold font-bold text-xl xl:text-xl 2xl:text-xl">- Nirmal Kumar Paudel<br> Deerwalk Dhading School</p> 
+               <p class="font-arialBold font-bold text-xl xl:text-xl 2xl:text-xl">- Nirmal Kumar Paudel, Deerwalk Dhading School</p> 
             </div>
 
             <img src="{{ asset('pictures/Nirmal_sir.png') }}" class="rounded-full lg:w-[15rem] lg:h-[15rem] xl:w-[19rem] xl:h-[19rem] 2xl:w-[24rem] 2xl:h-[24rem] object-cover border-4 mt-1 border-DDS-blue">
@@ -126,14 +126,14 @@
     
             <div class="flex flex-col lg:mt-14 lg:w-3/5 lg:gap-10 2xl:gap-14">
                <h1 class="text-DDS-blue font-arialBold font-bold text-3xl xl:text-4xl 2xl:text-4xl">Principal's Message</h1>
-               <p class="text-justify font-arialRegular font-normal xl:text-lg 2xl:text-lg">
+               <p class="text-justify font-arialRegular font-semibold xl:text-lg 2xl:text-lg">
                  I bring a wealth of experience in Information Technology (IT) to my role as School Principal, holding an MTech degree from Kathmandu University's School of Engineering and benefiting from the Erasmus Mundus Scholarship for advanced studies in Italy.
 
                  Recognized for my commitment to educational progress, I also received the IVLP Fellowship in the USA, enriching my understanding of digital education. Over my decade-long tenure at Deerwalk, I've championed technology's impact on education, 
                  
                  and I'm eager to contribute to the growth and success of every student at Deerwalk Dhading School.
                </p>
-               <p class="font-arialBold font-bold text-xl xl:text-xl 2xl:text-xl">-Bijay Shrestha<br> Principal-Deerwalk Sifal School</p> 
+               <p class="font-arialBold font-bold text-xl xl:text-xl 2xl:text-xl">-Bijay Shrestha, Deerwalk Sifal School</p> 
             </div>
         
         </div>

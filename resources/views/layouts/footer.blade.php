@@ -56,34 +56,34 @@
 
 
 
-<div class="hidden lg:block pt-10">
+<div class="hidden lg:block pt-10 pb-10">
 
     <div class="flex flex-col lg:gap-16 xl:gap-16 2xl:gap-20">
 
         <div class="flex flex-row justify-around">
     
             <div class="flex flex-col md:gap-3 lg:gap-4 xl:gap-6 2xl:gap-10">
-              <a href="#whyDDS"><p class="font-arialBold font-bold md:text-xs xl:text-sm 2xl:text-base text-white text-left">Why DDS</p></a>      
-              <a href="#Management"><p class="font-arialBold font-bold md:text-xs xl:text-sm 2xl:text-base text-white text-left">Our Units</p></a>  
-              <a href="#Units"><p class="font-arialBold font-bold md:text-xs xl:text-sm 2xl:text-base text-white text-left">Management</p></a>  
+              <a href="#whyDDS"><p class="font-arialRegular font-bold md:text-xs xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Why DDS</p></a>      
+              <a href="#Management"><p class="font-arialRegular font-bold md:text-xs xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Our Units</p></a>  
+              <a href="#Units"><p class="font-arialRegular font-bold md:text-xs xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Management</p></a>  
             </div>
         
             <div class="flex flex-col  ml-14 md:gap-3 lg:gap-4 xl:gap-6 2xl:gap-10">
-              <a href=""><p class="font-arialBold font-bold md:text-xs xl:text-sm 2xl:text-base text-white text-left">Courses</p></a>   
-              <a href=""><p class="font-arialBold font-bold md:text-xs xl:text-sm 2xl:text-base text-white text-left">Academics</p></a>   
-              <a href=""><p class="font-arialBold font-bold md:text-xs xl:text-sm 2xl:text-base text-white text-left">Admission</p></a>   
+              <a href=""><p class="font-arialRegular font-bold md:text-xs xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900 ">Courses</p></a>   
+              <a href=""><p class="font-arialRegular font-bold md:text-xs xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Academics</p></a>   
+              <a href=""><p class="font-arialRegular font-bold md:text-xs xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Admission</p></a>   
             </div>
         
             <div class="flex flex-col md:gap-3 lg:gap-4 xl:gap-6 2xl:gap-10">
-                <p class="font-arialBold font-bold md:text-xs xl:text-sm 2xl:text-base text-white text-left">Dhunibesi-9, Dhading, Nepal</p>
-                <p class="font-arialBold font-bold md:text-xs xl:text-sm 2xl:text-base text-white text-left">01-459149 , 9851064445</p>
-                <p class="font-arialBold font-bold md:text-xs xl:text-sm 2xl:text-base text-white text-left">contact@deerwalk.edu.np</p>
+                <p class="font-arialRegular font-normal md:text-xs xl:text-sm 2xl:text-lg text-white text-left">Dhunibesi-9, Dhading, Nepal</p>
+                <p class="font-arialRegular font-normal md:text-xs xl:text-sm 2xl:text-lg text-white text-left">01-459149 , 9851064445</p>
+                <p class="font-arialRegular font-normal md:text-xs xl:text-sm 2xl:text-lg text-white text-left">contact@deerwalk.edu.np</p>
             </div>
         
         </div>
         
 
-        <div class="flex flex-col gap-4 md:flex-row md:justify-around 2xl:mb-8">
+        <div class="flex flex-col gap-4 md:flex-row md:justify-around">
         
             <div class=" flex items-center justify-center">
                 <img src="{{ asset('pictures/DDS white.png') }}" class="object-fit w-[10rem] md:w-[12rem] lg:w-[12rem] xl:w-[12rem] 2xl:w-52">

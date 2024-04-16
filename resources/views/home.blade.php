@@ -36,7 +36,7 @@
       {{-- <div class="hidden md:block">
          
       </div> --}}
-      <img src="{{ asset('pictures/school_analytics.png') }}" class="object-cover w-[83rem] sm:[48rem] md:w-[54rem] lg:w-[64rem] xl:w-[77rem] 2xl:w-[78rem] h-full">
+      <img src="{{ asset('pictures/school_analytics.png') }}" class="object-cover w-[83rem] sm:[48rem] md:w-[54rem] lg:w-[64rem] xl:w-[77rem] 2xl:w-[84rem] h-full">
       {{-- <div class="md:hidden block">
          <img src="{{ asset('pictures/Analytics mobile.png') }}" class="w-full object-cover">
       </div> --}}
@@ -59,11 +59,11 @@
     @include('layouts.units')
    </div>
 
-   <div class=" mt-11 md:mt-20 lg:mt-20 xl:mt-28 2xl:mt-36 2xl:mx-5">
-       <a href="https://dlc.dwit.edu.np/"><img src="{{ asset('pictures/DLC banner.jpg') }}" class="2xl:object-scale-down lg:rounded-3xl"></a> 
+   <div class=" mt-11 md:mt-20 lg:mt-20 xl:mt-28 2xl:mt-24 flex justify-center items-center">
+       <a href="https://dlc.dwit.edu.np/"><img src="{{ asset('pictures/DLC banner.jpg') }}" class="2xl:w-[84rem] lg:rounded-3xl"></a> 
    </div>
 
-   <div class="mt-11 flex justify-center min-w-screen">
+   <div class="mt-11 2xl:mt-14 flex justify-center min-w-screen">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28255.09784256106!2d85.14281347910158!3d27.72076789999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb25dc8f452eaf%3A0xc5ff2d33084a4703!2sDeerwalk%20Dhading%20School!5e0!3m2!1sen!2snp!4v1713259209944!5m2!1sen!2snp" width="2720" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
    </div>
 

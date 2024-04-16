@@ -8,32 +8,32 @@
 
             <div class="flex flex-row items-center gap-7 ">
                 <h1 class="text-DDS-blue font-arialBold font-bold text-5xl md:text-6xl">01</h1>
-                <p class="font-arialRegular font-normal text-xs  md:text-lg text-left">Engage in Open House Sessions or Counselling</p>
+                <p class="font-arialRegular font-semibold text-xs  md:text-lg text-left">Engage in Open House Sessions or Counselling</p>
             </div>
     
             <div class="flex flex-row items-center gap-7 ">
                 <h1 class="text-DDS-blue font-arialBold font-bold text-5xl md:text-6xl">02</h1>
-                <p class="font-arialRegular font-normal text-sm md:text-lg text-left">Submit the application form</p>
+                <p class="font-arialRegular font-semibold text-sm md:text-lg text-left">Submit the application form</p>
             </div>
     
             <div class="flex flex-row items-center gap-7 ">
                 <h1 class="text-DDS-blue font-arialBold font-bold text-5xl md:text-6xl">03</h1>
-                <p class="font-arialRegular font-normal text-sm md:text-lg text-left">Take the Deerwalk Aptitude Test (DAT)</p>
+                <p class="font-arialRegular font-semibold text-sm md:text-lg text-left">Take the Deerwalk Aptitude Test (DAT)</p>
             </div>
     
             <div class="flex flex-row items-center gap-7 ">
                 <h1 class="text-DDS-blue font-arialBold font-bold text-5xl md:text-6xl">04</h1>
-                <p class="font-arialRegular font-normal text-sm md:text-lg text-left">Participate in Parent-Teacher Interaction</p>
+                <p class="font-arialRegular font-semibold text-sm md:text-lg text-left">Participate in Parent-Teacher Interaction</p>
             </div>
     
             <div class="flex flex-row items-center gap-7 ">
                 <h1 class="text-DDS-blue font-arialBold font-bold text-5xl md:text-6xl">05</h1>
-                <p class="font-arialRegular font-normal text-sm md:text-lg text-left">Receive Admission Open Letter</p>
+                <p class="font-arialRegular font-semibold text-sm md:text-lg text-left">Receive Admission Open Letter</p>
             </div>
     
             <div class="flex flex-row items-center gap-7 ">
                 <h1 class="text-DDS-blue font-arialBold font-bold text-5xl md:text-6xl">06</h1>
-                <p class="font-arialRegular font-normal text-sm md:text-lg lg:text-xl text-left">Confirm Admission</p>
+                <p class="font-arialRegular font-semibold text-sm md:text-lg lg:text-xl text-left">Confirm Admission</p>
             </div>
 
         </div>
@@ -47,17 +47,17 @@
 
             <div class="flex flex-row gap-8 items-center">
                 <h1 class="text-DDS-blue font-arialBold font-bold text-7xl 2xl:text-7xl items-center">01</h1>
-                <p class="font-arialRegular font-normal lg:text-xl 2xl:text-xl items-center">Engage in Open House<br>Sessions or Counselling</p>
+                <p class="font-arialRegular font-semibold lg:text-xl 2xl:text-xl items-center">Engage in Open House<br>Sessions or Counselling</p>
             </div>
     
             <div class="flex flex-row gap-8 items-center">
                 <h1 class="text-DDS-blue font-arialBold font-bold text-7xl 2xl:text-7xl items-center">03</h1>
-                <p class="font-arialRegular font-normal lg:text-xl 2xl:text-xl items-center">Take the Deerwalk<br> Aptitude Test (DAT)</p>
+                <p class="font-arialRegular font-semibold lg:text-xl 2xl:text-xl items-center">Take the Deerwalk<br> Aptitude Test (DAT)</p>
             </div>
     
             <div class="flex flex-row gap-8 items-center">
                 <h1 class="text-DDS-blue font-arialBold font-bold text-7xl 2xl:text-7xl items-center">05</h1>
-                <p class="font-arialRegular font-normal lg:text-xl 2xl:text-xl items-center">Receive Admission<br> Open Letter</p>
+                <p class="font-arialRegular font-semibold lg:text-xl 2xl:text-xl items-center">Receive Admission<br> Open Letter</p>
             </div>
         </div>
 
@@ -65,17 +65,17 @@
 
             <div class="flex flex-row gap-8 items-center">
                 <h1 class="text-DDS-blue font-arialBold font-bold text-7xl 2xl:text-7xl items-center">02</h1>
-                <p class="font-arialRegular font-normal 2xl:text-xl lg:text-xl items-center">Submit the application<br> form</p>
+                <p class="font-arialRegular font-semibold 2xl:text-xl lg:text-xl items-center">Submit the application<br> form</p>
             </div>
 
             <div class="flex flex-row gap-8 items-center">
                 <h1 class="text-DDS-blue font-arialBold font-bold text-7xl 2xl:text-7xl items-center">04</h1>
-                <p class="font-arialRegular   lg:text-lg 2xl:text-xl">Participate in Parent-<br>Teacher Interaction</p>
+                <p class="font-arialRegular font-semibold lg:text-lg 2xl:text-xl">Participate in Parent-<br>Teacher Interaction</p>
             </div>
     
             <div class="flex flex-row gap-8 items-center">
                 <h1 class="text-DDS-blue font-arialBold font-bold text-7xl 2xl:text-7xl items-center">06</h1>
-                <p class="font-arialRegular font-normal lg:text-xl 2xl:text-xl items-center">Confirm Admission</p>
+                <p class="font-arialRegular font-semibold lg:text-xl 2xl:text-xl items-center">Confirm Admission</p>
             </div>
         </div>
 
