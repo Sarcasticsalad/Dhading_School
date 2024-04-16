@@ -78,7 +78,7 @@
             <div class="flex flex-col lg:mt-10 lg:w-3/5 lg:gap-10 2xl:gap-14">
                <h1 class="text-DDS-blue text-3xl font-arialBold font-bold xl:text-4xl 2xl:text-4xl">Founder's Greetings</h1>
                <p class="text-justify font-arialRegular font-normal xl:text-lg 2xl:text-lg ">
-                At Sifal School, we take a holistic approach to education. While we strive for excellence in academics, our mission extends beyond that: We teach our students the soft and hard skills they need to become confident and curious citizens of the world.
+                At Dhading School, we take a holistic approach to education. While we strive for excellence in academics, our mission extends beyond that: We teach our students the soft and hard skills they need to become confident and curious citizens of the world.
 
                 We focus on reading, writing and coding. Reading a range of texts — fiction, non-fiction, poetry and beyond — helps students expand their vocabularies and become clearer thinkers and writers.
 

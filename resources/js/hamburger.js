@@ -7,8 +7,3 @@ function onToggleMenu(e){
     navLinks.classList.toggle('hidden');        
 }
 
-// document.addEventListener('click', function(event){
-//     if(event.target !== navLinks){
-//         navLinks.classList.add('hidden');
-//     }
-// });
