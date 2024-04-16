@@ -7,40 +7,40 @@
     <div class="flex flex-col gap-4 items-center md:hidden lg:block lg:flex lg:flex-row lg:justify-evenly px-14">
 
         <div class="cursor-pointer">
-            <div class="relative w-[10rem] h-[10rem] bg-DDS-blue rounded-lg sm:w-[16rem] sm:h-[16rem] lg:w-[12rem] lg:h-[12rem] xl:w-[14rem] xl:h-[14rem] 2xl:w-[12rem] 2xl:h-[12rem]">
-                <div class="absolute rounded-lg bottom-2.5 right-2.5 bg-Card-blue w-[10rem] h-[10rem] sm:w-[16rem] sm:h-[16rem] lg:w-[12rem] lg:h-[12rem] xl:w-[14rem] xl:h-[14rem] 2xl:w-[12rem] 2xl:h-[12rem]">
-                    <div class="absolute w-full bottom-14 sm:bottom-28 lg:bottom-16 xl:bottom-24 2xl:bottom-16">
-                        <h1 class="text-DDS-blue font-arialBold font-bold text-center px-2 text-xl  xl:px-4 2xl:text-2xl">English Learning</h1>
+            <div class="relative w-[10rem] h-[10rem] bg-shadow-blue rounded-lg sm:w-[16rem] sm:h-[16rem] lg:w-[10rem] lg:h-[10rem] xl:w-[11rem] xl:h-[11rem] 2xl:w-[12rem] 2xl:h-[12rem]">
+                <div class="absolute rounded-lg bottom-2.5 right-2.5 bg-Card-blue w-[10rem] h-[10rem] sm:w-[16rem] sm:h-[16rem] lg:w-[10rem] lg:h-[10rem] xl:w-[11rem] xl:h-[11rem] 2xl:w-[12rem] 2xl:h-[12rem]">
+                    <div class="absolute w-full bottom-14 sm:bottom-28 lg:bottom-12 xl:bottom-14 2xl:bottom-16">
+                        <h1 class="text-heading-blue font-arialBold font-bold text-center px-2 text-xl  xl:px-4 2xl:text-2xl">English Learning</h1>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="cursor-pointer">
-            <div class="relative w-[10rem] h-[10rem] bg-DDS-blue rounded-lg sm:w-[16rem] sm:h-[16rem] lg:w-[12rem] lg:h-[12rem] xl:w-[14rem] xl:h-[14rem] 2xl:w-[12rem] 2xl:h-[12rem]">
-                <div class="absolute rounded-lg bottom-2.5 right-2.5 bg-Card-blue w-[10rem] h-[10rem] sm:w-[16rem] sm:h-[16rem] lg:w-[12rem] lg:h-[12rem] xl:w-[14rem] xl:h-[14rem] 2xl:w-[12rem] 2xl:h-[12rem]">
-                    <div class="absolute bottom-14 w-full sm:bottom-28 lg:bottom-16 xl:bottom-24 2xl:bottom-16">
-                        <h1 class="text-DDS-blue font-arialBold font-bold text-xl text-center px-3 xl:px-4 2xl:text-2xl">Nepali Learning</h1>
+            <div class="relative w-[10rem] h-[10rem] bg-shadow-blue rounded-lg sm:w-[16rem] sm:h-[16rem] lg:w-[10rem] lg:h-[10rem] xl:w-[11rem] xl:h-[11rem] 2xl:w-[12rem] 2xl:h-[12rem]">
+                <div class="absolute rounded-lg bottom-2.5 right-2.5 bg-Card-blue w-[10rem] h-[10rem] sm:w-[16rem] sm:h-[16rem] lg:w-[10rem] lg:h-[10rem] xl:w-[11rem] xl:h-[11rem] 2xl:w-[12rem] 2xl:h-[12rem]">
+                    <div class="absolute bottom-14 w-full sm:bottom-28 lg:bottom-12 xl:bottom-14 2xl:bottom-16">
+                        <h1 class="text-heading-blue font-arialBold font-bold text-xl text-center px-3 xl:px-4 2xl:text-2xl">Nepali Learning</h1>
                     </div>
                 </div>
             </div>
         </div>
     
         <div class="cursor-pointer">
-            <div class="relative w-[10rem] h-[10rem] bg-DDS-blue rounded-lg sm:w-[16rem] sm:h-[16rem] lg:w-[12rem] lg:h-[12rem] xl:w-[14rem] xl:h-[14rem] 2xl:w-[12rem] 2xl:h-[12rem]">
-                <div class="absolute rounded-lg bottom-2.5 right-2.5 bg-Card-blue w-[10rem] h-[10rem] sm:w-[16rem] sm:h-[16rem] lg:w-[12rem] lg:h-[12rem] xl:w-[14rem] xl:h-[14rem] 2xl:w-[12rem] 2xl:h-[12rem]">
-                    <div class="absolute bottom-16 w-full sm:bottom-28 lg:bottom-20 xl:bottom-24 2xl:bottom-20">
-                        <h1 class="text-DDS-blue font-arialBold font-bold text-xl text-center 2xl:text-2xl">Sanskrit</h1>
+            <div class="relative w-[10rem] h-[10rem] bg-shadow-blue rounded-lg sm:w-[16rem] sm:h-[16rem] lg:w-[10rem] lg:h-[10rem] xl:w-[11rem] xl:h-[11rem] 2xl:w-[12rem] 2xl:h-[12rem]">
+                <div class="absolute rounded-lg bottom-2.5 right-2.5 bg-Card-blue w-[10rem] h-[10rem] sm:w-[16rem] sm:h-[16rem] lg:w-[10rem] lg:h-[10rem] xl:w-[11rem] xl:h-[11rem] 2xl:w-[12rem] 2xl:h-[12rem]">
+                    <div class="absolute bottom-16 w-full sm:bottom-28 lg:bottom-16 xl:bottom-16 2xl:bottom-20">
+                        <h1 class="text-heading-blue font-arialBold font-bold text-xl text-center 2xl:text-2xl">Sanskrit</h1>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="cursor-pointer">
-            <div class="relative w-[10rem] h-[10rem] bg-DDS-blue rounded-lg sm:w-[16rem] sm:h-[16rem] lg:w-[12rem] lg:h-[12rem] xl:w-[14rem] xl:h-[14rem] 2xl:w-[12rem] 2xl:h-[12rem]">
-                <div class="absolute rounded-lg bottom-2.5 right-2.5 bg-Card-blue w-[10rem] h-[10rem] sm:w-[16rem] sm:h-[16rem] lg:w-[12rem] lg:h-[12rem] xl:w-[14rem] xl:h-[14rem] 2xl:w-[12rem] 2xl:h-[12rem]">
-                    <div class="absolute bottom-16 w-full sm:bottom-28 lg:bottom-20 xl:bottom-24 2xl:bottom-20">
-                        <h1 class="text-DDS-blue font-arialBold font-bold text-xl text-center 2xl:text-2xl">Coding</h1>
+            <div class="relative w-[10rem] h-[10rem] bg-shadow-blue rounded-lg sm:w-[16rem] sm:h-[16rem] lg:w-[10rem] lg:h-[10rem] xl:w-[11rem] xl:h-[11rem] 2xl:w-[12rem] 2xl:h-[12rem]">
+                <div class="absolute rounded-lg bottom-2.5 right-2.5 bg-Card-blue w-[10rem] h-[10rem] sm:w-[16rem] sm:h-[16rem] lg:w-[10rem] lg:h-[10rem] xl:w-[11rem] xl:h-[11rem] 2xl:w-[12rem] 2xl:h-[12rem]">
+                    <div class="absolute bottom-16 w-full sm:bottom-28 lg:bottom-16 xl:bottom-16 2xl:bottom-20">
+                        <h1 class="text-heading-blue font-arialBold font-bold text-xl text-center 2xl:text-2xl">Coding</h1>
                     </div>
                 </div>
             </div>
@@ -53,20 +53,20 @@
         <div class="flex flex-row gap-16 justify-center">
 
             <div class="cursor-pointer">
-                <div class="relative w-[14rem] h-[14rem] bg-DDS-blue rounded-lg sm:w-[16rem] sm:h-[16rem] lg:w-[12rem] lg:h-[12rem] xl:w-[14rem] xl:h-[14rem] 2xl:w-[20rem] 2xl:h-[20rem]">
+                <div class="relative w-[14rem] h-[14rem] bg-shadow-blue rounded-lg sm:w-[16rem] sm:h-[16rem] lg:w-[12rem] lg:h-[12rem] xl:w-[14rem] xl:h-[14rem] 2xl:w-[20rem] 2xl:h-[20rem]">
                     <div class="absolute rounded-lg bottom-2.5 right-2.5 bg-Card-blue w-[14rem] h-[14rem] sm:w-[16rem] sm:h-[16rem] lg:w-[12rem] lg:h-[12rem] xl:w-[14rem] xl:h-[14rem] 2xl:w-[20rem] 2xl:h-[20rem]">
                         <div class="absolute w-full bottom-24 sm:bottom-28 lg:bottom-16 xl:bottom-24 2xl:bottom-32">
-                            <h1 class="text-DDS-blue font-arialBold font-bold text-2xl text-center px-2 xl:px-4 2xl:text-4xl">English Learning</h1>
+                            <h1 class="text-heading-blue font-arialBold font-bold text-2xl text-center px-2 xl:px-4 2xl:text-4xl">English Learning</h1>
                         </div>
                     </div>
                 </div>
             </div>
     
             <div class="cursor-pointer">
-                <div class="relative w-[14rem] h-[14rem] bg-DDS-blue rounded-lg sm:w-[16rem] sm:h-[16rem] lg:w-[12rem] lg:h-[12rem] xl:w-[14rem] xl:h-[14rem] 2xl:w-[20rem] 2xl:h-[20rem]">
+                <div class="relative w-[14rem] h-[14rem] bg-shadow-blue rounded-lg sm:w-[16rem] sm:h-[16rem] lg:w-[12rem] lg:h-[12rem] xl:w-[14rem] xl:h-[14rem] 2xl:w-[20rem] 2xl:h-[20rem]">
                     <div class="absolute rounded-lg bottom-2.5 right-2.5 bg-Card-blue w-[14rem] h-[14rem] sm:w-[16rem] sm:h-[16rem] lg:w-[12rem] lg:h-[12rem] xl:w-[14rem] xl:h-[14rem] 2xl:w-[20rem] 2xl:h-[20rem]">
                         <div class="absolute bottom-24 w-full sm:bottom-28 lg:bottom-16 xl:bottom-24 2xl:bottom-32">
-                            <h1 class="text-DDS-blue font-arialBold font-bold text-2xl text-center px-3 xl:px-4 2xl:text-4xl">Nepali Learning</h1>
+                            <h1 class="text-heading-blue font-arialBold font-bold text-2xl text-center px-3 xl:px-4 2xl:text-4xl">Nepali Learning</h1>
                         </div>
                     </div>
                 </div>
@@ -75,10 +75,10 @@
 
         <div class="flex flex-row gap-16 justify-center">
             <div class="cursor-pointer">
-                <div class="relative w-[14rem] h-[14rem] bg-DDS-blue rounded-lg sm:w-[16rem] sm:h-[16rem] lg:w-[12rem] lg:h-[12rem] xl:w-[14rem] xl:h-[14rem] 2xl:w-[20rem] 2xl:h-[20rem]">
+                <div class="relative w-[14rem] h-[14rem] bg-shadow-blue rounded-lg sm:w-[16rem] sm:h-[16rem] lg:w-[12rem] lg:h-[12rem] xl:w-[14rem] xl:h-[14rem] 2xl:w-[20rem] 2xl:h-[20rem]">
                     <div class="absolute rounded-lg bottom-2.5 right-2.5 bg-Card-blue w-[14rem] h-[14rem] sm:w-[16rem] sm:h-[16rem] lg:w-[12rem] lg:h-[12rem] xl:w-[14rem] xl:h-[14rem] 2xl:w-[20rem] 2xl:h-[20rem]">
                         <div class="absolute bottom-24 w-full sm:bottom-28 lg:bottom-20 xl:bottom-32">
-                            <h1 class="text-DDS-blue font-arialBold font-bold text-2xl text-center 2xl:text-4xl">Sanskrit</h1>
+                            <h1 class="text-heading-blue font-arialBold font-bold text-2xl text-center 2xl:text-4xl">Sanskrit</h1>
                         </div>
                     </div>
                 </div>
@@ -86,10 +86,10 @@
     
             <div class="cursor-pointer">
 
-                <div class="relative w-[14rem] h-[14rem] bg-DDS-blue rounded-lg sm:w-[16rem] sm:h-[16rem] lg:w-[12rem] lg:h-[12rem] xl:w-[14rem] xl:h-[14rem] 2xl:w-[20rem] 2xl:h-[20rem]">
+                <div class="relative w-[14rem] h-[14rem] bg-shadow-blue rounded-lg sm:w-[16rem] sm:h-[16rem] lg:w-[12rem] lg:h-[12rem] xl:w-[14rem] xl:h-[14rem] 2xl:w-[20rem] 2xl:h-[20rem]">
                     <div class="absolute rounded-lg bottom-2.5 right-2.5 bg-Card-blue w-[14rem] h-[14rem] sm:w-[16rem] sm:h-[16rem] lg:w-[12rem] lg:h-[12rem] xl:w-[14rem] xl:h-[14rem] 2xl:w-[20rem] 2xl:h-[20rem]">
                         <div class="absolute bottom-24 w-full sm:bottom-28 lg:bottom-20 xl:bottom-32">
-                            <h1 class="text-DDS-blue font-arialBold font-bold text-2xl text-center 2xl:text-4xl">Coding</h1>
+                            <h1 class="text-heading-blue font-arialBold font-bold text-2xl text-center 2xl:text-4xl">Coding</h1>
                         </div>
                     </div>
                 </div>

@@ -8,9 +8,9 @@
         
             <div class="flex flex-col gap-6 lg:flex-row lg:gap-3 xl:flex-row xl:gap-4">
 
-                <div class="flex flex-col gap-5 2xl:gap-5 md:p-10 lg:p-6 xl:p-10 2xl:p-9 border-8 border-DDS-blue rounded-3xl w-[20rem] h-[19rem] sm:w-[28rem] sm:h-[16rem] md:w-[40rem] md:h-[23rem] lg:w-[30rem] lg:h-[20rem] xl:w-[39rem] xl:h-[20rem] 2xl:w-[36rem] 2xl:h-[18rem]">
+                <div class="flex flex-col gap-5 xl:gap-5 2xl:gap-5 md:p-10 lg:p-7 xl:p-12 2xl:p-9 border-8 border-DDS-blue rounded-3xl w-[20rem] h-[19rem] sm:w-[28rem] sm:h-[16rem] md:w-[40rem] md:h-[23rem] lg:w-[30rem] lg:h-[18rem] xl:w-[39rem] xl:h-[20rem] 2xl:w-[36rem] 2xl:h-[18rem]">
                     <div class="flex flex-row justify-between">
-                        <h1 class="font-arialBold text-DDS-blue text-2xl md:text-3xl lg:text-3xl 2xl:text-2xl">Essential Skills</h1>
+                        <h1 class="font-arialBold text-heading-blue text-2xl md:text-3xl lg:text-2xl 2xl:text-2xl">Essential Skills</h1>
                         <img src="{{ asset('pictures/skills-blue.png') }}" class="h-[2rem] sm:h-[1.8rem] md:h-[2rem] xl:h-[2.7rem] 2xl:h-[2.3rem]">
                     </div>
                     <div>
@@ -24,9 +24,9 @@
                 </div>
 
 
-                <div class="flex flex-col gap-5 xl:gap-3 2xl:gap-5 md:p-10 lg:p-6 xl:p-10 2xl:p-9 bg-DDS-blue rounded-3xl border-DDS-blue w-[20rem] h-[19rem] sm:w-[28rem] sm:h-[16rem] md:w-[40rem] md:h-[23rem] lg:w-[30rem] lg:h-[20rem] xl:w-[39rem] xl:h-[20rem] 2xl:w-[36rem] 2xl:h-[18rem]">
+                <div class="flex flex-col gap-5 xl:gap-5 2xl:gap-5 md:p-10 lg:p-7 xl:p-12 2xl:p-9 bg-DDS-blue rounded-3xl border-DDS-blue w-[20rem] h-[19rem] sm:w-[28rem] sm:h-[16rem] md:w-[40rem] md:h-[23rem] lg:w-[30rem] lg:h-[18rem] xl:w-[39rem] xl:h-[20rem] 2xl:w-[36rem] 2xl:h-[18rem]">
                     <div class="flex flex-row justify-between">
-                        <h1 class="font-arialBold text-2xl text-white md:text-3xl lg:text-3xl 2xl:text-2xl">Language Skills</h1>
+                        <h1 class="font-arialBold text-2xl text-white md:text-3xl lg:text-2xl 2xl:text-2xl">Language Skills</h1>
                         <img src="{{ asset('pictures/language_icon.png') }}" class="h-[2rem] sm:h-[1.8rem] md:h-[2rem] xl:h-[2.7rem] 2xl:h-[2.3rem]"> 
                     </div>
                     <div>
@@ -41,11 +41,11 @@
             </div>
             
             
-                <div class="flex flex-col gap-6 lg:flex-row lg:gap-3 xl:flex-row xl:gap-4">
+                <div class="flex flex-col gap-5 lg:flex-row lg:gap-3 xl:flex-row  xl:gap-5">
     
-                    <div class=" flex flex-col gap-5 2xl:gap-6 lg:p-6 xl:p-10 2xl:p-9 border-DDS-blue border-8 rounded-3xl w-[20rem] h-[19rem] sm:w-[28rem] sm:h-[16rem] md:w-[32rem] md:h-[20rem] lg:w-[30rem] lg:h-[20rem] lg:bg-DDS-blue xl:w-[39rem] xl:h-[20rem] 2xl:w-[36rem] 2xl:h-[18rem] ">
+                    <div class=" flex flex-col gap-5 2xl:gap-6 lg:p-7 xl:p-12 2xl:p-9 border-DDS-blue border-8 rounded-3xl w-[20rem] h-[19rem] sm:w-[28rem] sm:h-[16rem] md:w-[32rem] md:h-[20rem] lg:w-[30rem] lg:h-[18rem] lg:bg-DDS-blue xl:w-[39rem] xl:h-[20rem] 2xl:w-[36rem] 2xl:h-[18rem] ">
                         <div class="flex flex-row justify-between">
-                            <h1 class="font-arialBold font-bold text-2xl md:text-3xl lg:text-3xl 2xl:text-2xl text-DDS-blue lg:text-white ">Academic Fundamentals</h1>
+                            <h1 class="font-arialBold font-bold text-2xl md:text-3xl lg:text-2xl 2xl:text-2xl text-DDS-blue lg:text-white ">Academic Fundamentals</h1>
                             <img src="{{ asset('pictures/fundamentals_icon.png') }}" class="h-[2.5rem] sm:h-[1.8rem] md:h-[2rem] xl:h-[2.7rem] 2xl:h-[2.3rem] hidden lg:block">
                         </div>
     
@@ -61,9 +61,9 @@
                     </div>
     
                     
-                    <div class=" flex flex-col gap-5 2xl:gap-6 lg:p-6 xl:p-10 2xl:p-9 rounded-3xl lg:border-DDS-blue w-[20rem] h-[19rem] sm:w-[28rem] sm:h-[16rem] md:w-[32rem] md:h-[20rem] lg:w-[30rem] lg:h-[20rem] lg:border-8 xl:w-[39rem] xl:h-[20rem] 2xl:w-[36rem] 2xl:h-[18rem]">
+                    <div class=" flex flex-col gap-5 2xl:gap-6 lg:p-7 xl:p-12 2xl:p-9 rounded-3xl lg:border-DDS-blue w-[20rem] h-[19rem] sm:w-[28rem] sm:h-[16rem] md:w-[32rem] md:h-[20rem] lg:w-[30rem] lg:h-[18rem] lg:border-8 xl:w-[39rem] xl:h-[20rem] 2xl:w-[36rem] 2xl:h-[18rem]">
                         <div class="flex flex-row justify-between">
-                            <h1 class="font-arialBold text-2xl md:text-3xl lg:text-3xl 2xl:text-2xl text-white lg:text-DDS-blue">Extra Curricular Activities</h1>
+                            <h1 class="font-arialBold text-2xl md:text-3xl lg:text-2xl 2xl:text-2xl text-white lg:text-heading-blue">Extra Curricular Activities</h1>
                             <img src="{{ asset('pictures/flask-blue.png') }}" class="h-[2.5rem] sm:h-[1.8rem] md:h-[2rem] xl:h-[2.7rem] 2xl:h-[2.3rem] hidden lg:block">
                         </div>
                         <div>
@@ -91,7 +91,7 @@
 
                 <div class="flex flex-col gap-5 p-5 sm:p-10 md:p-10 border-4 sm:border-8 border-DDS-blue rounded-3xl w-[18rem] sm:w-[28rem] md:w-[40rem]">
                     <div class="flex flex-row justify-between">
-                        <h1 class="font-arialBold font-bold text-2xl text-DDS-blue md:text-3xl">Essential Skills</h1>
+                        <h1 class="font-arialBold font-bold text-2xl text-heading-blue md:text-3xl">Essential Skills</h1>
                         <img src="{{ asset('pictures/skills-blue.png') }}" class=" ml-2 h-[2rem] sm:h-[1.8rem] sm:mt-0.5 md:h-[2rem] md:mt-0 md:mr-16 xl:pr-9 xl:mr-4 xl:h-[2.1rem]">
                     </div>
                     <div>
@@ -127,7 +127,7 @@
     
                     <div class=" flex flex-col gap-5 p-5 sm:p-10 md:p-10 border-DDS-blue  border-4 sm:border-8 rounded-3xl w-[18rem] sm:w-[28rem] md:w-[40rem] md:h-[23rem]">
                         <div class="flex flex-row justify-between">
-                            <h1 class="font-arial-rounded font-bold text-2xl md:text-3xl text-DDS-blue">Academic Fundamentals</h1>
+                            <h1 class="font-arial-rounded font-bold text-2xl md:text-3xl text-heading-blue">Academic Fundamentals</h1>
                             <img src="{{ asset('pictures/read-blue.png') }}" class="h-[2rem] ml-2 sm:mr-8 sm:h-[1.8rem] sm:mt-0.5 md:h-[2rem]  md:mr-16">
                         </div>
     

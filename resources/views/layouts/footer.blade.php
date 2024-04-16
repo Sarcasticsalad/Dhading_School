@@ -63,15 +63,15 @@
         <div class="flex flex-row justify-around">
     
             <div class="flex flex-col md:gap-3 lg:gap-4 xl:gap-6 2xl:gap-10">
-              <a href="#whyDDS"><p class="font-arialRegular font-bold md:text-xs xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Why DDS</p></a>      
-              <a href="#Management"><p class="font-arialRegular font-bold md:text-xs xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Our Units</p></a>  
-              <a href="#Units"><p class="font-arialRegular font-bold md:text-xs xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Management</p></a>  
+              <a href="#whyDDS"><p class="font-arialRegular font-bold md:text-xs lg:text-sm xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Why DDS</p></a>      
+              <a href="#Management"><p class="font-arialRegular font-bold md:text-xs lg:text-sm xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Our Units</p></a>  
+              <a href="#Units"><p class="font-arialRegular font-bold md:text-xs lg:text-sm xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Management</p></a>  
             </div>
         
             <div class="flex flex-col  ml-14 md:gap-3 lg:gap-4 xl:gap-6 2xl:gap-10">
-              <a href=""><p class="font-arialRegular font-bold md:text-xs xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900 ">Courses</p></a>   
-              <a href=""><p class="font-arialRegular font-bold md:text-xs xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Academics</p></a>   
-              <a href=""><p class="font-arialRegular font-bold md:text-xs xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Admission</p></a>   
+              <a href=""><p class="font-arialRegular font-bold md:text-xs lg:text-sm xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900 ">Courses</p></a>   
+              <a href=""><p class="font-arialRegular font-bold md:text-xs lg:text-sm xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Academics</p></a>   
+              <a href=""><p class="font-arialRegular font-bold md:text-xs lg:text-sm xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Admission</p></a>   
             </div>
         
             <div class="flex flex-col md:gap-3 lg:gap-4 xl:gap-6 2xl:gap-10">
@@ -92,7 +92,7 @@
             <div class="flex justify-center gap-2 lg:flex-row items-center md:gap-2 lg:gap-2 xl:pl-16 xl:gap-2 2xl:gap-4">
     
                 
-                <div class="flex flex-col">
+                <div class="flex flex-col xl:mr-2 2xl:mr-0">
                     
                     <p class="font-arialRegular text-xs/4 text-white md:text-sm xl:text-sm 2xl:text-base">© 2024 Deerwalk Dhading School.</p>
                     <p class="font-arialRegular text-xs/4 text-white md:text-sm xl:text-sm 2xl:text-base">All Rights Reserved.</p>
@@ -101,7 +101,7 @@
             </div>
             
         
-            <div class="flex justify-center gap-3 lg:flex-row md:gap-4 lg:gap-4 xl:gap-7 2xl:gap-6 lg:justify-center items-center lg:mr-14 xl:mr-16 2xl:mr-[4rem]">
+            <div class="flex justify-center gap-3 lg:flex-row md:gap-4 lg:gap-4 xl:gap-7 2xl:gap-6 lg:justify-center items-center lg:mr-12 xl:mr-12 2xl:mr-[4rem]">
                 <a href="https://www.instagram.com/deerwalk_dhading_school/"><img src="{{ asset('pictures/instagram.png') }}" class="w-5 lg:w-7 xl:w-7 2xl:w-9 cursor-pointer"></a>  
                 <a href="https://www.facebook.com/profile.php?id=61557434263234"><img src="{{ asset('pictures/facebook-app-symbol.png')}}" class="w-5 lg:w-7 xl:w-7 2xl:w-9 cursor-pointer"></a>  
                 <a href=""><img src="{{ asset('pictures/youtube.png') }}" class="w-5 lg:w-7 xl:w-6 2xl:w-9 cursor-pointer"></a>  
