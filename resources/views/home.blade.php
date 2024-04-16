@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     @vite('resources/css/app.css')
-   @vite('resources/js/app.js')
+   
 
 </head>
 <body class="overflow-x-hidden">
@@ -74,5 +74,6 @@
    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>   
    {{-- <script src={{ mix('/resources/js/hamburger.js') }}></script>
    <script src={{ mix('/resources/js/about_us.js') }}></script> --}}
+   @vite('resources/js/app.js')
 </body>
 </html>
