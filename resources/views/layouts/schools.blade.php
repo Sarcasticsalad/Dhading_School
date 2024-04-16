@@ -25,7 +25,7 @@
                 <div class="absolute bottom-2 right-2">
                     <img src="{{ asset('pictures/Middle School.jpg') }}" class="rounded-t-xl h-[11.5rem] w-full sm:h-[17.9rem] lg:h-[20.5rem] xl:h-[20.5rem] 2xl:h-[21.3rem] object-cover">
                     <div class="absolute h-[11.5rem] sm:h-[17.9rem] lg:h-[20.6rem] xl:h-[20.5rem] 2xl:h-[21.3rem] w-full bg-black/40 flex items-center justify-center bottom-[4.5rem] sm:bottom-[8.5rem] md:bottom-[8.8rem] lg:bottom-[10rem] xl:bottom-[10.2rem] 2xl:bottom-[6.7rem] rounded-t-xl opacity-0 hover:opacity-100 transition-all duration-300">
-                        <p class="text-white font-arial-rounded font-normal text-lg sm:text-2xl md:text-4xl lg:text-4xl">Grade 4 to 7</p>
+                        <p class="text-white font-arialBold font-bold text-lg sm:text-2xl md:text-4xl lg:text-4xl">Grade 4 to 7</p>
                     </div>
                     <div class="bg-gray-200 flex justify-center rounded-b-lg">
                         <h1 class="py-6 lg:py-16 sm:py-14 2xl:py-9 font-arialBold font-bold text-base sm:text-xl lg:text-2xl xl:text-3xl text-DDS-blue">Middle School</h1>

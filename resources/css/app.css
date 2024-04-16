@@ -15,3 +15,7 @@
     font-family: "Arial Rounded MT Regular";
     src: url('/public/assets/fonts/arial-rounded-mt/ARMTL.ttf');
 }
+
+html{
+scroll-behavior: smooth;
+}

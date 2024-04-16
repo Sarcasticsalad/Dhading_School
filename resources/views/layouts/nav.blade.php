@@ -1,6 +1,6 @@
 <nav class="flex justify-between h-16 md:h-20 ">
    
-         <a href=""> </a>    <img src="{{ asset('pictures/DDS_logo.png') }}" class="h-[2.3rem] mt-4 pl-7 sm:h-[2.3rem] sm:ml-10 md:h-[3rem] md:ml-10 lg:h-[3rem] lg:pl-16 lg:mt-4 2xl:h-[2.7rem] 2xl:ml-20 2xl:mt-5">
+         <img src="{{ asset('pictures/DDS_logo.png') }}" class="h-[2.3rem] mt-4 pl-7 sm:h-[2.3rem] sm:ml-10 md:h-[3rem] md:ml-10 lg:h-[3rem] lg:pl-16 lg:mt-4 2xl:h-[2.7rem] 2xl:ml-20 2xl:mt-5">   
          <div class="nav-links absolute bg-white w-screen px-5 top-[100%] lg:top-[90%] pb-8 pt-4 hidden  sm:px-8  md:px-10  lg:px-16 xl:static xl:block  2xl:block ">
                 <div class="flex flex-col pt-1 gap-8 lg:flex-col lg:gap-8 lg:mr-8 xl:flex-row xl:justify-end xl:pr-3">
 

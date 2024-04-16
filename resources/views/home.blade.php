@@ -26,11 +26,11 @@
     @include('layouts.chooseDSS')
    </div>
 
-   <div class="flex justify-center mt-11 mx-3 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-24 ">
+   <div class="flex justify-center mt-11 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-24 ">
       {{-- <div class="hidden md:block">
          
       </div> --}}
-      <img src="{{ asset('pictures/school_analytics.png') }}" class="object-cover w-[83rem] lg:w-[76rem] h-full">
+      <img src="{{ asset('pictures/school_analytics.png') }}" class="object-cover w-[83rem] sm:[48rem] md:w-[54rem] lg:w-[64rem] xl:w-[77rem] 2xl:w-[78rem] h-full">
       {{-- <div class="md:hidden block">
          <img src="{{ asset('pictures/Analytics mobile.png') }}" class="w-full object-cover">
       </div> --}}
