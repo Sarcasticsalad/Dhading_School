@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     @vite('resources/css/app.css')
+    
    
 
 </head>
@@ -74,6 +75,41 @@
    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>   
    {{-- <script src={{ mix('/resources/js/hamburger.js') }}></script>
    <script src={{ mix('/resources/js/about_us.js') }}></script> --}}
-   @vite('resources/js/app.js')
+   <script>
+      const aboutUsLink = document.getElementById('aboutUsLink');
+const aboutUsDropdown = document.getElementById('aboutUsDropdown');
+const aboutUsDropdownLinks = aboutUsDropdown.querySelectorAll('a');
+
+
+
+aboutUsLink.addEventListener('click', function(event){
+    event.preventDefault();
+    aboutUsDropdown.classList.toggle('hidden');
+
+});
+
+document.addEventListener('click', function(event){
+    if(event.target !== aboutUsLink && !aboutUsDropdown.contains(event.target)) {
+        aboutUsDropdown.classList.add('hidden');
+    }
+});
+
+for(const link of aboutUsDropdownLinks){
+    link.addEventListener('click', function(event){
+        aboutUsDropdown.classList.add('hidden');
+    });
+}
+const navLinks = document.querySelector('.nav-links')
+
+
+function onToggleMenu(e){
+    e.name = e.name === 'close' ? 'menu' : 'close'
+
+    navLinks.classList.toggle('hidden');        
+}
+
+
+   </script>
+   
 </body>
 </html>
