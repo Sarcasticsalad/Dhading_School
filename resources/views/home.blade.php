@@ -7,7 +7,9 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link href="/resources/css/fonts.css">
-    @vite('resources/css/app.css')
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    @vite('resources/css/app.css'
+)
 </head>
 <body class="overflow-x-hidden">
    <header class="bg-white sticky top-0 z-10 shadow-md "> 
