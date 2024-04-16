@@ -10,8 +10,8 @@
     <link href="/resources/css/fonts.css">
 
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    @vite('resources/css/app.css'
-)
+    @vite('resources/css/app.css')
+   @vite('resources/js/app.js')
 
 </head>
 <body class="overflow-x-hidden">
