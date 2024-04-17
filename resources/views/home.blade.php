@@ -24,15 +24,15 @@
     <img src="{{ asset('pictures/ARCHI_DDS.png') }}" class="object-cover h-screen w-screen">
    </div>
 
-   <div class="mt-11 flex justify-center sm:mt-14 md:mt-16 lg:mt-20 xl:mt-24">
+   <div class="p-11 flex justify-center sm:pt-14 md:pt-16 lg:pt-20 xl:pt-24" id="Schools" >
     @include('layouts.schools')
    </div>
 
-   <div class="flex justify-center mt-11 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-24">
+   <div class="flex justify-center p-t11 sm:pt-14 md:pt-16 lg:pt-20 xl:pt-24" id="whyDDS">
     @include('layouts.chooseDSS')
    </div>
 
-   <div class="flex justify-center mt-11 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-24 ">
+   <div class="flex justify-center pt-11 sm:pt-14 md:pt-16 lg:pt-20 xl:pt-24 ">
 
     <div class="sm:hidden">
         <img src="{{asset('pictures/Analytics mobile.png')}}" class="object-cover w-[23rem]">
@@ -44,27 +44,27 @@
 
    </div>
 
-   <div>
+   <div id="Admission">
     @include('layouts.admission_procedure')
    </div>
 
-   <div class="mt-11 sm:mt-14 md:mt-16 2xl:mt-32" id="Management">
+   <div class="pt-11 sm:pt-14 md:p-16 2xl:pt-32" id="Management">
       @include('layouts.founder_messages')
    </div>
 
-   <div>
+   <div id="Courses">
     @include('layouts.courses')
    </div>
 
-   <div>
+   <div id="Units">
     @include('layouts.units')
    </div>
 
-   <div class=" mt-11 md:mt-20 lg:mt-20 xl:mt-28 2xl:mt-24 flex justify-center items-center">
+   <div class=" pt-11 md:pt-20 lg:pt-20 xl:pt-28 2xl:pt-24 flex justify-center items-center">
        <a href="https://dlc.dwit.edu.np/"><img src="{{ asset('pictures/DLC banner.jpg') }}" class="md:w-[48rem] lg:w-[60rem] xl:w-[85rem] 2xl:w-[84rem] md:rounded-3xl"></a> 
    </div>
 
-   <div class="mt-11 2xl:mt-14 flex justify-center min-w-screen">
+   <div class="pt-11 2xl:pt-14 flex justify-center min-w-screen">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28255.09784256106!2d85.14281347910158!3d27.72076789999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb25dc8f452eaf%3A0xc5ff2d33084a4703!2sDeerwalk%20Dhading%20School!5e0!3m2!1sen!2snp!4v1713259209944!5m2!1sen!2snp" width="2720" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
    </div>
 

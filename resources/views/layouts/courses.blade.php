@@ -1,4 +1,4 @@
-<div class="flex flex-col mt-11 sm:mt-14 md:mt-16 lg:mt-28 2xl:mt-24 gap-8 sm:gap-10 md:gap-12 lg:gap-16 xl:gap-14 " id="Courses">
+<div class="flex flex-col pt-11 sm:pt-14 md:pt-16 lg:pt-28 2xl:pt-24 gap-8 sm:gap-10 md:gap-12 lg:gap-16 xl:gap-14">
 
     <div class="flex justify-center">
         <h1 class="text-DDS-blue text-2xl font-arialBold font-bold md:text-4xl lg:4xl xl:text-4xl">Our Courses</h1>

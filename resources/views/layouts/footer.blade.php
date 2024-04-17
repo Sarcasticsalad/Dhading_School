@@ -64,14 +64,14 @@
     
             <div class="flex flex-col md:gap-3 lg:gap-4 xl:gap-6 2xl:gap-10">
               <a href="#whyDDS"><p class="font-arialRegular font-bold md:text-xs lg:text-sm xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Why DDS</p></a>      
-              <a href="#Management"><p class="font-arialRegular font-bold md:text-xs lg:text-sm xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Our Units</p></a>  
-              <a href="#Units"><p class="font-arialRegular font-bold md:text-xs lg:text-sm xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Management</p></a>  
+              <a href="#Units"><p class="font-arialRegular font-bold md:text-xs lg:text-sm xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Our Units</p></a>  
+              <a href="#Management"><p class="font-arialRegular font-bold md:text-xs lg:text-sm xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Management</p></a>  
             </div>
         
             <div class="flex flex-col  ml-14 md:gap-3 lg:gap-4 xl:gap-6 2xl:gap-10">
-              <a href=""><p class="font-arialRegular font-bold md:text-xs lg:text-sm xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900 ">Courses</p></a>   
-              <a href=""><p class="font-arialRegular font-bold md:text-xs lg:text-sm xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Academics</p></a>   
-              <a href=""><p class="font-arialRegular font-bold md:text-xs lg:text-sm xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Admission</p></a>   
+              <a href="#Courses"><p class="font-arialRegular font-bold md:text-xs lg:text-sm xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900 ">Courses</p></a>   
+              <a href="#Academics"><p class="font-arialRegular font-bold md:text-xs lg:text-sm xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Academics</p></a>   
+              <a href="#Admission"><p class="font-arialRegular font-bold md:text-xs lg:text-sm xl:text-sm 2xl:text-lg text-white text-left hover:text-gray-900">Admission</p></a>   
             </div>
         
             <div class="flex flex-col md:gap-3 lg:gap-4 xl:gap-6 2xl:gap-10">

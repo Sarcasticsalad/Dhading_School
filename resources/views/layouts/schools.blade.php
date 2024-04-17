@@ -1,7 +1,7 @@
-<div id="Schools" class="flex flex-col gap-7 sm:gap-10 md:gap-12 lg:gap-16 xl:gap-16 overflow-x-hidden">
+<div class="flex flex-col gap-7 sm:gap-10 md:gap-12 lg:gap-16 xl:gap-16 overflow-x-hidden">
   
     <div class="flex justify-center">
-        <h1 class="text-heading-blue font-arialBold font-bold text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl">Our Schools</h1>
+        <h1 class="text-heading-blue font-arialBold font-bold text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl" >Our Schools</h1>
     </div>
 
     <div class="flex flex-col justify-center items-center w-screen gap-8 sm:gap-14 lg:gap-28 xl:flex-row xl:gap-20 2xl:gap-32">

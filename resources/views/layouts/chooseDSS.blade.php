@@ -1,4 +1,4 @@
-<div class="flex flex-col gap-7 sm:gap-10 md:gap-12 lg:gap-16 xl:gap-16" id="whyDDS">
+<div class="flex flex-col gap-7 sm:gap-10 md:gap-12 lg:gap-16 xl:gap-16">
 
     <h1 class="text-DDS-blue font-arialBold font-bold text-2xl text-center md:text-4xl xl:text-4xl">Why Choose DDS?</h1>
 
