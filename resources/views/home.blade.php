@@ -24,11 +24,11 @@
     <img src="{{ asset('pictures/ARCHI_DDS.png') }}" class="object-cover h-screen w-screen">
    </div>
 
-   <div class="p-11 flex justify-center sm:pt-14 md:pt-16 lg:pt-20 xl:pt-24" id="Schools" >
+   <div class="pt-11 flex justify-center sm:pt-14 md:pt-16 lg:pt-20 xl:pt-24" id="Schools" >
     @include('layouts.schools')
    </div>
 
-   <div class="flex justify-center p-t11 sm:pt-14 md:pt-16 lg:pt-20 xl:pt-24" id="whyDDS">
+   <div class="flex justify-center pt-11 sm:pt-14 md:pt-16 lg:pt-20 xl:pt-24" id="whyDDS">
     @include('layouts.chooseDSS')
    </div>
 
