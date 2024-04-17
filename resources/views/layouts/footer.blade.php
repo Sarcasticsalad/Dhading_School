@@ -1,8 +1,8 @@
-<div class="lg:hidden">
+<div class="lg:hidden py-10">
 
-    <div class="flex flex-col gap-5  justify-start">
+    <div class="flex flex-col gap-5 justify-start">
 
-        <div class="pt-7 pl-7">
+        <div class="pl-7">
             <p class="font-arial-rounded font-normal text-sm sm:text-base text-white">Contact Us</p>
         </div>
 

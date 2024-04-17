@@ -85,33 +85,39 @@
     
     <div class="lg:hidden block">
 
-        <div class=" flex flex-col gap-6 sm:gap-8 md:gap-10 lg:gap-3 xl:gap-4">
+        <div class=" flex flex-col gap-3 sm:gap-8 md:gap-8 lg:gap-3 xl:gap-4">
         
-            <div class="flex flex-col justify-center items-center gap-6 sm:gap-8 lg:flex-row lg:gap-3 xl:flex-row xl:gap-4">
+            <div class="flex flex-row justify-center items-center gap-3 sm:gap-8 lg:flex-row lg:gap-3 xl:flex-row xl:gap-4">
 
-                <div class="flex flex-col gap-5 p-5 sm:p-10 md:p-10 border-4 sm:border-8 border-DDS-blue rounded-3xl w-[18rem] sm:w-[28rem] md:w-[40rem]">
+                <div class="flex flex-col gap-5 p-5 border-4 rounded-xl  sm:p-10 md:p-10 sm:border-8 border-DDS-blue lg:rounded-3xl w-[11rem] max-h-[17rem] overflow-auto sm:w-[19rem] sm:h-[10rem] md:w-[23rem] md:h-[14rem]">
+                    
+                    
                     <div class="flex flex-row justify-between">
-                        <h1 class="font-arialBold font-bold text-2xl text-heading-blue md:text-3xl">Essential Skills</h1>
-                        <img src="{{ asset('pictures/skills-blue.png') }}" class=" ml-2 h-[2rem] sm:h-[1.8rem] sm:mt-0.5 md:h-[2rem] md:mt-0 md:mr-16 xl:pr-9 xl:mr-4 xl:h-[2.1rem]">
+                        <h1 class="font-arialBold font-bold text-lg sm:text-2xl text-heading-blue md:text-3xl">Essential Skills</h1>
+                        <img src="{{ asset('pictures/skills-blue.png') }}" class=" ml-2 h-[1.6rem] sm:h-[1.8rem] sm:mt-0.5 md:h-[2rem] md:mt-0 xl:pr-9 xl:mr-4 xl:h-[2.1rem]">
                     </div>
-                    <div>
-                        <p class="font-arialRegular font-semibold text-left text-base">
-                            Deerwalk Dhading School believes in equipping its students with essential skills crucial for both academic success and overall growth and development. 
-                            These skills encompass active listening, adherence to the 5 R’s of DSS (showing respect for everyone), maintaining a neat dress code, and upholding a zero-tolerance policy against bullying, sexist language, and dishonesty. 
-                            The school places significant emphasis on these skills as they play a vital role in creating a positive and inclusive learning environment conducive to the thriving of every student.
 
-                        </p>
+                    <div>
+                        
+                            <p class="font-arialRegular font-semibold text-left text-sm">
+                                Deerwalk Dhading School believes in equipping its students with essential skills crucial for both academic success and overall growth and development. 
+                                These skills encompass active listening, adherence to the 5 R’s of DSS (showing respect for everyone), maintaining a neat dress code, and upholding a zero-tolerance policy against bullying, sexist language, and dishonesty. 
+                                The school places significant emphasis on these skills as they play a vital role in creating a positive and inclusive learning environment conducive to the thriving of every student.
+    
+                            </p>
+                       
+                        
                     </div>
                 </div>
 
 
-                <div class="flex flex-col gap-5 p-5 sm:p-10 md:p-10 bg-DDS-blue rounded-3xl border-4 sm:border-8 border-DDS-blue w-[18rem] sm:w-[28rem] sm:h-[31.5rem] md:w-[40rem] md:h-[23rem]">
+                <div class="flex flex-col gap-5 p-5 sm:p-10 md:p-10 bg-DDS-blue rounded-xl lg:rounded-3xl border-4 sm:border-8 border-DDS-blue w-[11rem] max-h-[17rem] overflow-auto sm:w-[19rem] sm:h-[10rem] md:w-[23rem] md:h-[14rem]">
                     <div class="flex flex-row justify-between">
-                        <h1 class="font-arialBold font-bold text-2xl text-white md:text-3xl">Language Skills</h1>
-                        <img src="{{ asset('pictures/language_icon.png') }}" class="h-[2rem] ml-2 sm:h-[1.8rem] sm:mt-0.5 md:h-[2rem] md:mt-0 md:mr-16"> 
+                        <h1 class="font-arialBold font-bold text-lg sm:text-2xl text-white md:text-3xl">Language Skills</h1>
+                        <img src="{{ asset('pictures/language_icon.png') }}" class="h-[1.6rem] ml-2 sm:h-[1.8rem] sm:mt-0.5 md:h-[2rem] md:mt-0 "> 
                     </div>
                     <div>
-                        <p class="text-white font-arialRegular  text-base text-left">
+                        <p class="text-white font-arialRegular text-sm text-left">
                         <p class="text-white font-arialRegular font-semibold text-base text-left">
                             In terms of language proficiency, Deerwalk Dhading School advocates for the learning of multiple languages. 
                             While English serves as the primary language for instruction and communication, with students mandated to read one English book monthly, there are no penalties for speaking Nepali, thereby fostering an appreciation for the native language. 
@@ -123,12 +129,12 @@
             </div>
             
             
-                <div class="flex flex-col gap-6 sm:gap-8 lg:flex-row lg:gap-3 xl:flex-row xl:gap-4">
+                <div class="flex flex-row items-center justify-center gap-3 sm:gap-8 lg:flex-row lg:gap-3 xl:flex-row xl:gap-4">
     
-                    <div class=" flex flex-col gap-5 p-5 sm:p-10 md:p-10 border-DDS-blue  border-4 sm:border-8 rounded-3xl w-[18rem] sm:w-[28rem] md:w-[40rem] md:h-[23rem]">
+                    <div class=" flex flex-col gap-5 p-5 sm:p-10 md:p-10 border-DDS-blue  border-4 sm:border-8 rounded-xl lg:rounded-3xl w-[11rem] max-h-[17rem] overflow-auto sm:w-[19rem] sm:h-[10rem] md:w-[23rem] md:h-[14rem]">
                         <div class="flex flex-row justify-between">
-                            <h1 class="font-arial-rounded font-bold text-2xl md:text-3xl text-heading-blue">Academic Fundamentals</h1>
-                            <img src="{{ asset('pictures/read-blue.png') }}" class="h-[2rem] ml-2 sm:mr-8 sm:h-[1.8rem] sm:mt-0.5 md:h-[2rem]  md:mr-16">
+                            <h1 class="font-arialBold font-bold text-lg sm:text-2xl md:text-3xl text-heading-blue">Academic Fundamentals</h1>
+                            <img src="{{ asset('pictures/read-blue.png') }}" class="h-[1.6rem]  sm:h-[1.8rem] sm:mt-0.5 md:h-[2rem]">
                         </div>
     
                         <div>
@@ -142,10 +148,10 @@
                     </div>
     
                     
-                    <div class=" flex flex-col gap-5 p-5 sm:p-10 md:p-10 rounded-3xl bg-DDS-blue border-DDS-blue border-8 w-[18rem] sm:w-[28rem] sm:h-[31.5rem] md:w-[40rem] md:h-[23rem] ">
+                    <div class=" flex flex-col gap-5 p-5 sm:p-10 md:p-10 rounded-lg lg:rounded-3xl bg-DDS-blue border-DDS-blue border-8 w-[11rem] max-h-[17rem] overflow-auto sm:w-[19rem] sm:h-[10rem] md:w-[23rem] md:h-[14rem]">
                         <div class="flex flex-row justify-between">
-                            <h1 class="font-arialBold font-bold text-2xl md:text-3xl text-white">Extra Curricular Activities</h1>
-                            <img src="{{ asset('pictures/flask-white.png') }}" class="h-[2rem] ml-2  sm:h-[1.8rem] sm:mt-0.5 md:h-[2rem] mt-0 md:mr-16">
+                            <h1 class="font-arialBold font-bold text-lg sm:text-2xl md:text-3xl text-white">Extra Curricular Activities</h1>
+                            <img src="{{ asset('pictures/flask-white.png') }}" class="h-[1.6rem] ml-2  sm:h-[1.8rem] sm:mt-0.5 md:h-[2rem] mt-0 ">
                         </div>
                         <div>
                             <p class= "text-white font-arialRegular font-semibold text-base text-left">

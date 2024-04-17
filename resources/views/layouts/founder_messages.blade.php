@@ -5,7 +5,7 @@
         <div class="flex flex-col gap-8 sm:gap-10 md:gap-12 ">
             <h1 class="text-center text-heading-blue font-arialBold font-bold text-2xl md:text-4xl">Founder's Greetings</h1>
             <img src="{{ asset('pictures/rudrasir.png') }}" class="rounded-full border-2 border-DDS-blue w-[14rem] h-[14rem] sm:w-[16rem] sm:h-[16rem] md:w-[20rem] md:h-[20rem]  mx-auto object-cover">
-            <p class="px-14 sm:px-16 md:px-24 font-arialRegular font-normal text-justify">
+            <p class="px-14 sm:px-16 md:px-24 font-arialRegular font-semibold text-justify">
                 At Dhading School, we take a holistic approach to education. While we strive for excellence in academics, our mission extends beyond that: We teach our students the soft and hard skills they need to become confident and curious citizens of the world.
 
                 We focus on reading, writing and coding. Reading a range of texts — fiction, non-fiction, poetry and beyond — helps students expand their vocabularies and become clearer thinkers and writers.
@@ -18,7 +18,7 @@
 
             </p>
 
-            <p class="font-arialBold font-bold text-lg text-center md:text-xl">- Rudra Pandey, PhD</p>
+            <p class="font-arialBold font-bold text-lg text-center md:text-xl">- Rudra Pandey<br>Founder</p>
         </div>
     
     </div>
@@ -29,7 +29,7 @@
         <div class="flex flex-col gap-8 sm:gap-8 md:gap-10">
             <h1 class="text-center text-heading-blue font-arialBold font-bold text-2xl md:text-4xl">Principal's Message</h1>
             <img src="{{ asset('pictures/Nirmal_sir.png') }}" class="rounded-full border-2 border-DDS-blue w-[14rem] h-[14rem] sm:w-[16rem] sm:h-[16rem] md:w-[20rem] md:h-[20rem]  mx-auto object-cover">
-            <p class="px-14 sm:px-16 md:px-24 font-arialRegular font-normal text-justify">
+            <p class="px-14 sm:px-16 md:px-24 font-arialRegular font-semibold text-justify">
                 Deerwalk Dhading School (DDS) is committed to fostering a culture of learning and inspiration. 
                 Our campus community places a strong emphasis on knowledge acquisition while upholding high standards in academics. 
                 We focus on four key pillars: Essential Skills, Language Proficiency, Academic Foundations, and Excellence in Extracurricular Activities (ECA), ensuring a well-rounded education for our students. 
@@ -37,7 +37,7 @@
 
 
             </p>
-            <p class="font-arialBold font-bold text-center text-lg md:text-xl">- Nirmal Kumar Paudel, Deerwalk Dhading School</p>
+            <p class="font-arialBold font-bold text-center text-lg md:text-xl">- Nirmal Kumar Paudel<br>Deerwalk Dhading School</p>
         </div>
     
     </div>
@@ -47,7 +47,7 @@
         <div class="flex flex-col gap-8 sm:gap-8 md:gap-10">
             <h1 class="text-center text-heading-blue font-arialBold font-bold text-2xl md:text-4xl">Principal's Message</h1>
             <img src="{{ asset('pictures/bijayasir.png') }}" class="rounded-full border-2 border-DDS-blue w-[14rem] h-[14rem] sm:w-[16rem] sm:h-[16rem] md:w-[20rem] md:h-[20rem]  mx-auto object-cover pr-">
-            <p class="px-14 sm:px-16 md:px-24 font-arialRegular font-normal text-justify">
+            <p class="px-14 sm:px-16 md:px-24 font-arialRegular font-semibold text-justify">
                 I bring a wealth of experience in Information Technology (IT) to my role as School Principal, holding an MTech degree from Kathmandu University's School of Engineering and benefiting from the Erasmus Mundus Scholarship for advanced studies in Italy.
 
                  Recognized for my commitment to educational progress, I also received the IVLP Fellowship in the USA, enriching my understanding of digital education. Over my decade-long tenure at Deerwalk, I've championed technology's impact on education, 
@@ -56,7 +56,7 @@
 
             </p>
 
-            <p class="font-arialBold font-bold text-center text-lg md:text-xl">- Bijay Shrestha, Deerwalk Sifal School </p>
+            <p class="font-arialBold font-bold text-center text-lg md:text-xl">- Bijay Shrestha<br>Deerwalk Sifal School </p>
         </div>
     
     </div>

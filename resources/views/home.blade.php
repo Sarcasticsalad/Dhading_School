@@ -33,13 +33,14 @@
    </div>
 
    <div class="flex justify-center mt-11 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-24 ">
-      {{-- <div class="hidden md:block">
-         
-      </div> --}}
-      <img src="{{ asset('pictures/school_analytics.png') }}" class="object-cover w-[83rem] sm:[48rem] md:w-[54rem] lg:w-[60rem] xl:w-[85rem] 2xl:w-[84rem] h-full">
-      {{-- <div class="md:hidden block">
-         <img src="{{ asset('pictures/Analytics mobile.png') }}" class="w-full object-cover">
-      </div> --}}
+
+    <div class="sm:hidden">
+        <img src="{{asset('pictures/Analytics mobile.png')}}" class="object-cover w-[23rem]">
+    </div>
+
+      <div class="hidden sm:block">
+        <img src="{{asset('pictures/school_analytics.png')}}" class="object-cover sm:w-[40rem] md:w-[48rem] lg:w-[60rem] xl:w-[85rem] 2xl:w-[84rem]">
+      </div>
 
    </div>
 
@@ -60,7 +61,7 @@
    </div>
 
    <div class=" mt-11 md:mt-20 lg:mt-20 xl:mt-28 2xl:mt-24 flex justify-center items-center">
-       <a href="https://dlc.dwit.edu.np/"><img src="{{ asset('pictures/DLC banner.jpg') }}" class="lg:w-[60rem] xl:w-[85rem] 2xl:w-[84rem] lg:rounded-3xl"></a> 
+       <a href="https://dlc.dwit.edu.np/"><img src="{{ asset('pictures/DLC banner.jpg') }}" class="md:w-[48rem] lg:w-[60rem] xl:w-[85rem] 2xl:w-[84rem] md:rounded-3xl"></a> 
    </div>
 
    <div class="mt-11 2xl:mt-14 flex justify-center min-w-screen">
@@ -76,37 +77,53 @@
    {{-- <script src={{ mix('/resources/js/hamburger.js') }}></script>
    <script src={{ mix('/resources/js/about_us.js') }}></script> --}}
    <script>
+
       const aboutUsLink = document.getElementById('aboutUsLink');
-const aboutUsDropdown = document.getElementById('aboutUsDropdown');
-const aboutUsDropdownLinks = aboutUsDropdown.querySelectorAll('a');
+      const aboutUsDropdown = document.getElementById('aboutUsDropdown');
+      const aboutUsDropdownLinks = aboutUsDropdown.querySelectorAll('a');
 
 
 
-aboutUsLink.addEventListener('click', function(event){
-    event.preventDefault();
-    aboutUsDropdown.classList.toggle('hidden');
+    aboutUsLink.addEventListener('click', function(event){
+        event.preventDefault();
+        aboutUsDropdown.classList.toggle('hidden');
 
-});
-
-document.addEventListener('click', function(event){
-    if(event.target !== aboutUsLink && !aboutUsDropdown.contains(event.target)) {
-        aboutUsDropdown.classList.add('hidden');
-    }
-});
-
-for(const link of aboutUsDropdownLinks){
-    link.addEventListener('click', function(event){
-        aboutUsDropdown.classList.add('hidden');
     });
-}
-const navLinks = document.querySelector('.nav-links')
+
+    document.addEventListener('click', function(event){
+        if(event.target !== aboutUsLink && !aboutUsDropdown.contains(event.target)) {
+            aboutUsDropdown.classList.add('hidden');
+        }
+    });
+
+    for(const link of aboutUsDropdownLinks){
+        link.addEventListener('click', function(event){
+            aboutUsDropdown.classList.add('hidden');
+        });
+    }
+
+        const navLinks = document.querySelector('.nav-links');
+        // const menuIcon = document.querySelector('.ion-icon')
+
+        let isMenuOpen = false;
+
+        function toggleMenu(e) {
+        isMenuOpen = !isMenuOpen;
+        e.name = e.name === 'close' ? 'menu' : 'close'
+
+        navLinks.classList.toggle('hidden');
+        
+        }
+
+        
+        
 
 
-function onToggleMenu(e){
-    e.name = e.name === 'close' ? 'menu' : 'close'
+// function onToggleMenu(e){
+//     e.name = e.name === 'close' ? 'menu' : 'close'
 
-    navLinks.classList.toggle('hidden');        
-}
+//     navLinks.classList.toggle('hidden');        
+// }
 
 
    </script>

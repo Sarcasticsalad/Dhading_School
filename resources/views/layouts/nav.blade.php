@@ -6,7 +6,7 @@
                 <div class="flex flex-col items-center mt-1 gap-8 lg:flex-col lg:gap-8 lg:mr-8 xl:flex-row xl:justify-end xl:gap-8 w-full">
                     <div class=" flex items-center">
                         <a href="" id="aboutUsLink" class="font-arialBold font-bold text-gray-700 hover:text-DDS-blue px-4 py-2 lg:text-base">About Us</a>
-                        <div class="absolute hidden flex flex-col border-2 border-DDS-blue bg-white w-40 h-[6.5rem] lg:mt-20 xl:mt-6 xl:top-[69%] 2xl:top-[69%] rounded-md" id="aboutUsDropdown">
+                        <div class="absolute hidden flex flex-col shadow-md shadow-black xl:border-2 border-DDS-blue bg-white w-40 h-[6.5rem] lg:mt-20 xl:mt-6  top-[69%] lg:top-[2%] xl:top-[69%] 2xl:top-[69%] rounded-md" id="aboutUsDropdown">
                             <a href="#whyDDS" class="block font-arialBold font-bold text-gray-700 hover:text-DDS-blue  lg:text-base text-justify pl-6 py-1 border">Why DDS</a>
                             <a href="#Management" class="block font-arialBold font-bold text-gray-700 hover:text-DDS-blue  lg:text-base text-justify pl-6 py-1 border">Management</a>
                             <a href="#Units" class="block font-arialBold font-bold text-gray-700 hover:text-DDS-blue  lg:text-base text-justify pl-6 py-1 border">Our Units</a>
@@ -19,6 +19,6 @@
                 </div>
         </div>
         
-        <ion-icon name="menu-outline" class="text-4xl mt-4 mr-7 w-6 sm:mt-3 md:mt-5 cursor-pointer sm:text-5xl md:text-5xl md:mr-8 lg:mr-16 xl:hidden" onclick="onToggleMenu(this)"></ion-icon>
+        {{-- <ion-icon name="menu-outline" class="text-4xl mt-4 mr-7 w-6 sm:mt-3 md:mt-5 cursor-pointer sm:text-5xl md:text-5xl md:mr-8 lg:mr-16 xl:hidden" onclick="toggleMenu(this)"></ion-icon> --}}
           
 </nav>

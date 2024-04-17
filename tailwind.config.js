@@ -16,10 +16,10 @@ export default {
     extend: {
       colors: {
         'DDS-blue' : '#00B3E6',
-        'Card-blue' : '#F2F2F2',
+        'Card-blue' : '#DCEFF7',
         'heading-blue' : '#00ADDE',
         'shadow-blue' : '#00A1CF',
-        'schoolcard-blue' : '#F2F2F2',
+        'schoolcard-blue' : '#DCEFF7',
 
       }
     },
