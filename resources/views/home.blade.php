@@ -34,12 +34,12 @@
 
    <div class="flex justify-center pt-11 sm:pt-14 md:pt-16 lg:pt-20 xl:pt-24 ">
 
-    <div class="sm:hidden">
-        <img src="{{asset('pictures/Analytics mobile.png')}}" class="object-cover w-[23rem]">
+    <div class="sm:hidden w-full">
+        <img src="{{asset('pictures/Analytics mobile.png')}}" class="object-cover w-full px-3">
     </div>
 
-      <div class="hidden sm:block">
-        <img src="{{asset('pictures/school_analytics.png')}}" class="object-cover sm:w-[40rem] md:w-[48rem] lg:w-[60rem] xl:w-[85rem] 2xl:w-[84rem]">
+      <div class="hidden sm:block w-full">
+        <img src="{{asset('pictures/school_analytics.png')}}" class="object-cover w-full px-6">
       </div>
 
    </div>
@@ -60,8 +60,8 @@
     @include('layouts.units')
    </div>
 
-   <div class=" pt-11 md:pt-20 lg:pt-20 xl:pt-28 2xl:pt-24 flex justify-center items-center">
-       <a href="https://dlc.dwit.edu.np/"><img src="{{ asset('pictures/DLC banner.jpg') }}" class="md:w-[48rem] lg:w-[60rem] xl:w-[85rem] 2xl:w-[84rem] md:rounded-3xl"></a> 
+   <div class=" pt-11 md:pt-20 lg:pt-20 xl:pt-28 2xl:pt-24 flex justify-center items-center w-full px-5">
+       <a href="https://dlc.dwit.edu.np/"><img src="{{ asset('pictures/Updated_DLC_Banner.png') }}" class="object-cover w-full md:rounded-3xl"></a> 
    </div>
 
    <div class="pt-11 2xl:pt-14 flex justify-center min-w-screen">
@@ -101,6 +101,12 @@
             aboutUsDropdown.classList.add('hidden');
         });
     }
+
+
+    const today = new Date();
+    const year = today.getFullYear();
+    document.getElementById('currentYear').innerText = year;
+    document.getElementById('mobCurrentYear').innerText = year;
 
         const navLinks = document.querySelector('.nav-links');
         // const menuIcon = document.querySelector('.ion-icon')

@@ -45,8 +45,9 @@
     <div class="flex flex-row gap-1 items-center pl-7 pt-6">
         
         <div class="flex flex-col">
-            <p class="font-arialRegular text-xs/4 text-white md:text-sm xl:text-base 2xl:text-xl text-center">2024 Deerwalk Dhading School.</p>
-            <p class="font-arialRegular text-xs/4 text-white md:text-sm xl:text-base 2xl:text-xl">© All Rights Reserved.</p>
+            <p class="font-arialRegular text-xs/4 text-white md:text-sm xl:text-base 2xl:text-xl text-center"> 
+                © <span id="mobCurrentYear"></span> Deerwalk Dhading School.</p>
+            <p class="font-arialRegular text-xs/4 text-white md:text-sm xl:text-base 2xl:text-xl">All Rights Reserved.</p>
         </div>
     </div>
     
@@ -94,7 +95,8 @@
                 
                 <div class="flex flex-col xl:mr-2 2xl:mr-0">
                     
-                    <p class="font-arialRegular text-xs/4 text-white md:text-sm xl:text-sm 2xl:text-base">© 2024 Deerwalk Dhading School.</p>
+                    <p class="font-arialRegular text-xs/4 text-white md:text-sm xl:text-sm 2xl:text-base">
+                        © <span id='currentYear'></span> Deerwalk Dhading School.</p>
                     <p class="font-arialRegular text-xs/4 text-white md:text-sm xl:text-sm 2xl:text-base">All Rights Reserved.</p>
                 </div>
     

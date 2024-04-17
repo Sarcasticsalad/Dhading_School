@@ -8,7 +8,7 @@
 
             <div class="flex flex-row items-center gap-7 ">
                 <h1 class="text-heading-blue font-arialBold font-bold text-5xl md:text-6xl">01</h1>
-                <p class="font-arialRegular font-semibold text-xs  md:text-lg text-left">Engage in Open House Sessions or Counselling</p>
+                <p class="font-arialRegular font-semibold text-sm  md:text-lg text-left">Engage in Open House Sessions or Counselling</p>
             </div>
     
             <div class="flex flex-row items-center gap-7 ">
