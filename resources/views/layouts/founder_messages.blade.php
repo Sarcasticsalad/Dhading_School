@@ -1,6 +1,8 @@
-<div class="flex flex-col gap-20 sm:gap-24 md:gap-20 2xl:gap-18 lg:hidden xl:hidden 2xl:hidden overflow-x-hidden" >
+<div class="flex flex-col gap-11 sm:gap-12 md:gap-14 2xl:gap-24 lg:hidden xl:hidden 2xl:hidden overflow-x-hidden" >
 
     <div class="flex justify-center">
+
+{{-- For mobile to medium screen --}}
 
         <div class="flex flex-col gap-8 sm:gap-10 md:gap-12 ">
             <h1 class="text-center text-heading-blue font-arialBold font-bold text-2xl md:text-4xl" >Founder's Greetings</h1>
@@ -76,42 +78,50 @@
 
 
 
+{{-- For Screens larger and above --}}
 
 <div class="hidden lg:block">
 
-    <div class="flex flex-col lg:gap-20 xl:gap-32 2xl:gap-32">
+    <div class="flex flex-col items-center justify-center lg:gap-16 xl:gap-16">
 
-        <div class="flex flex-row justify-center lg:gap-14 lg:mx-20 2xl:gap-20 2xl:mx-24">
+        <div class="flex flex-col justify-center items-center lg:gap-10 lg:mx-20 xl:gap-14">
     
-            <img src="{{ asset('pictures/rudrasir.png') }}" class="rounded-full lg:mt-5 2xl:mt-1 lg:w-[15rem] lg:h-[15rem] xl:w-[19rem] xl:h-[19rem] 2xl:w-[24rem] 2xl:h-[24rem] object-cover border-4 border-DDS-blue">
+            <h1 class="text-heading-blue font-arialBold font-bold lg:text-4xl xl:text-4xl 2xl:text-4xl">Founder's Greetings</h1>
     
-            <div class="flex flex-col lg:mt-10 lg:w-3/5 lg:gap-10 2xl:gap-14">
-               <h1 class="text-heading-blue text-3xl font-arialBold font-bold xl:text-4xl 2xl:text-4xl">Founder's Greetings</h1>
-               <p class="text-justify font-arialRegular font-semibold xl:text-lg 2xl:text-lg ">
-                At Dhading School, we take a holistic approach to education. While we strive for excellence in academics, our mission extends beyond that: We teach our students the soft and hard skills they need to become confident and curious citizens of the world.
+               <div class="flex flex-col justify-center items-center lg:gap-8 xl:gap-10">
 
-                We focus on reading, writing and coding. Reading a range of texts — fiction, non-fiction, poetry and beyond — helps students expand their vocabularies and become clearer thinkers and writers.
+                <img src="{{ asset('pictures/rudrasir.png') }}" class="rounded-full  lg:w-[15rem] lg:h-[15rem] xl:w-[19rem] xl:h-[19rem] 2xl:w-[24rem] 2xl:h-[24rem] object-cover border-4 border-DDS-blue">
+                <p class="text-justify font-arialRegular font-semibold xl:text-lg 2xl:text-lg ">
+                 At Dhading School, we take a holistic approach to education. While we strive for excellence in academics, our mission extends beyond that: We teach our students the soft and hard skills they need to become confident and curious citizens of the world.
+ 
+                 We focus on reading, writing and coding. Reading a range of texts — fiction, non-fiction, poetry and beyond — helps students expand their vocabularies and become clearer thinkers and writers.
+ 
+                 Reading and writing skills go hand-in-hand. Students use what they’ve learned from reading to further hone their analytical and creative writing skills and become better communicators.
+ 
+                 Coding teaches students the art of problem-solving and acquaints them with the technologies of the future — skills that will be key regardless of the career paths they choose.
+ 
+                 Our educators recognize the moment: The pace of technological change is accelerating, and today’s students will need to be prepared for an increasingly unpredictable future. Our goal is to give them the skills and the tools to take on new challenges with intellect, agility and humanity.
+     
+                </p>
+                <p class="font-arialBold font-bold text-xl xl:text-xl 2xl:text-xl">- Rudra Pandey, Founder</p> 
+            
+               </div> 
 
-                Reading and writing skills go hand-in-hand. Students use what they’ve learned from reading to further hone their analytical and creative writing skills and become better communicators.
 
-                Coding teaches students the art of problem-solving and acquaints them with the technologies of the future — skills that will be key regardless of the career paths they choose.
-
-                Our educators recognize the moment: The pace of technological change is accelerating, and today’s students will need to be prepared for an increasingly unpredictable future. Our goal is to give them the skills and the tools to take on new challenges with intellect, agility and humanity.
-
-
-
-    
-               </p>
-               <p class="font-arialBold font-bold text-xl xl:text-xl 2xl:text-xl">- Rudra Pandey, Founder</p> 
-            </div>
+            
         
         </div>
 
+{{-- Principle Message - Nirmal Sir --}}
 
-        <div class="flex flex-row justify-center lg:gap-14 lg:mx-20 2xl:gap-20 2xl:mx-24">
-    
-            <div class="flex flex-col lg:mt-10 lg:w-3/5 lg:gap-14 ">
-               <h1 class="text-heading-blue font-arialBold font-bold text-3xl xl:text-4xl 2xl:text-4xl">Principal's Message</h1>
+        <div class="flex flex-col justify-center items-center lg:gap-10 lg:mx-20 xl:gap-14">
+            
+            <h1 class="text-heading-blue font-arialBold font-bold lg:text-4xl xl:text-4xl 2xl:text-4xl">Principal's Message</h1>
+            
+
+            <div class="flex flex-col items-center justify-center gap-8 xl:gap-10">
+
+                <img src="{{ asset('pictures/Nirmal_sir.png') }}" class="rounded-full lg:w-[15rem] lg:h-[15rem] xl:w-[19rem] xl:h-[19rem] 2xl:w-[24rem] 2xl:h-[24rem] object-cover border-4 border-DDS-blue">
                <p class="text-justify font-arialRegular font-semibold xl:text-lg 2xl:text-lg">
                 Deerwalk Dhading School (DDS) is committed to fostering a culture of learning and inspiration.
 
@@ -125,17 +135,17 @@
                <p class="font-arialBold font-bold text-xl xl:text-xl 2xl:text-xl">- Nirmal Kumar Paudel, Deerwalk Dhading School</p> 
             </div>
 
-            <img src="{{ asset('pictures/Nirmal_sir.png') }}" class="rounded-full lg:w-[15rem] lg:h-[15rem] xl:w-[19rem] xl:h-[19rem] 2xl:w-[24rem] 2xl:h-[24rem] object-cover border-4 mt-1 border-DDS-blue">
-        
         </div>
 
-    
-        <div class="flex flex-row justify-center lg:gap-14 lg:mx-20 2xl:gap-20 2xl:mx-24">
+ {{-- Principle Message - Bijay Sir --}}
 
-            <img src="{{ asset('pictures/bijayasir.png') }}" class="rounded-full lg:mt-4 lg:w-[15rem] lg:h-[15rem] xl:w-[19rem] xl:h-[19rem] 2xl:w-[24rem] 2xl:h-[24rem] object-cover border-4 border-DDS-blue">
-    
-            <div class="flex flex-col lg:mt-14 lg:w-3/5 lg:gap-10 2xl:gap-14">
-               <h1 class="text-heading-blue font-arialBold font-bold text-3xl xl:text-4xl 2xl:text-4xl">Principal's Message</h1>
+        <div class="flex flex-col justify-center items-center lg:gap-10 lg:mx-20 xl:gap-14">
+
+            <h1 class="text-heading-blue font-arialBold font-bold lg:text-4xl xl:text-4xl 2xl:text-4xl">Principal's Message</h1>
+            
+            <div class="flex flex-col justify-center items-center gap-8 xl:gap-10">
+
+                <img src="{{ asset('pictures/bijayasir.png') }}" class="rounded-full lg:w-[15rem] lg:h-[15rem] xl:w-[19rem] xl:h-[19rem] 2xl:w-[24rem] 2xl:h-[24rem] object-cover border-4 border-DDS-blue">
                <p class="text-justify font-arialRegular font-semibold xl:text-lg 2xl:text-lg">
                  I bring a wealth of experience in Information Technology (IT) to my role as School Principal, holding an MTech degree from Kathmandu University's School of Engineering and benefiting from the Erasmus Mundus Scholarship for advanced studies in Italy.
 

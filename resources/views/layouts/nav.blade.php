@@ -1,6 +1,6 @@
 <nav class="flex justify-between h-16 md:h-20 ">
 
-        <a href="/" class="w-96 h-0"><img src="{{ asset('pictures/DDS_logo.png') }}" class="h-[2.3rem] mt-4 pl-7 sm:h-[2.3rem] sm:ml-10 md:h-[3rem] md:ml-10 lg:h-[3rem] lg:pl-16 lg:mt-4 2xl:h-[2.7rem] 2xl:ml-20 2xl:mt-[1.2rem]"></a>
+        <a href="/" class="w-96 h-0"><img src="{{ asset('pictures/DDS blue.png') }}" class="h-[2.3rem] mt-4 pl-7 sm:h-[2.3rem] sm:ml-10 md:h-[3rem] md:ml-10 lg:h-[3rem] lg:pl-16 lg:mt-4 2xl:h-[2.7rem] 2xl:ml-20 2xl:mt-[1.2rem]"></a>
          {{-- <img src="{{ asset('pictures/DDS_logo.png') }}" class="h-[2.3rem] mt-4 pl-7 sm:h-[2.3rem] sm:ml-10 md:h-[3rem] md:ml-10 lg:h-[3rem] lg:pl-16 lg:mt-4 2xl:h-[2.7rem] 2xl:ml-20 2xl:mt-5">    --}}
          <div class="nav-links flex items-center absolute hidden bg-white w-screen px-5 top-[100%] lg:top-[90%] pb-8 pt-4 sm:px-8  md:px-10 lg:px-16 lg:static lg:block  xl:block  2xl:block ">
                 <div class="flex flex-col items-center lg:justify-end mt-1 gap-8 lg:flex-row lg:gap-4 lg:mr-8 xl:flex-row xl:justify-end xl:gap-8 w-full">
@@ -12,7 +12,7 @@
                             <a href="#Units" class="block font-arialBold font-bold text-gray-700 hover:text-DDS-blue  lg:text-sm xl:text-base text-justify pl-6 py-1 border">Our Units</a>
                         </div>
                     </div>
-                    <a href="#Schools" class="font-arialBold font-bold text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-sm xl:text-base">Academics</a>
+                    <a href="#Academics" class="font-arialBold font-bold text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-sm xl:text-base">Academics</a>
                     <a href="#Admission" class="font-arialBold font-bold  text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-sm xl:text-base">Admission</a>
                     <a href="#Courses" class="font-arialBold font-bold text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-sm xl:text-base">Courses</a>
                     <a href="#Footer" class="font-arialBold font-bold text-gray-700 hover:text-DDS-blue px-3 py-2 lg:text-sm xl:text-base">Contact</a>

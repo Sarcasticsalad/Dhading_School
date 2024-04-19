@@ -24,7 +24,7 @@
     <img src="{{ asset('pictures/ARCHI_DDS.png') }}" class="object-cover h-screen w-screen">
    </div>
 
-   <div class="pt-11 flex justify-center sm:pt-14 md:pt-16 lg:pt-20 xl:pt-24" id="Schools" >
+   <div class="pt-11 flex justify-center sm:pt-14 md:pt-16 lg:pt-20 xl:pt-24" id="Academics" >
     @include('layouts.schools')
    </div>
 
@@ -32,14 +32,14 @@
     @include('layouts.chooseDSS')
    </div>
 
-   <div class="flex justify-center pt-11 sm:pt-14 md:pt-16 lg:pt-20 xl:pt-24 ">
+   <div class="flex justify-center pt-11 sm:pt-14 md:pt-16 lg:pt-20 xl:pt-24">
 
-    <div class="sm:hidden w-full">
-        <img src="{{asset('pictures/Analytics mobile.png')}}" class="object-cover w-full px-3">
+    <div class="md:hidden w-full">
+        <img src="{{asset('pictures/Analytics_mobile.png')}}" class="object-cover w-full px-6">
     </div>
 
-      <div class="hidden sm:block w-full">
-        <img src="{{asset('pictures/school_analytics.png')}}" class="object-cover w-full px-6">
+      <div class="hidden md:block">
+        <img src="{{asset('pictures/Analytics.png')}}" class="object-cover w-full px-16">
       </div>
 
    </div>
@@ -48,7 +48,7 @@
     @include('layouts.admission_procedure')
    </div>
 
-   <div class="pt-11 sm:pt-14 md:p-16 2xl:pt-32" id="Management">
+   <div class="pt-11 sm:pt-14 md:pt-16 lg:pt-20 xl:pt-24 2xl:pt-28" id="Management">
       @include('layouts.founder_messages')
    </div>
 
@@ -60,7 +60,7 @@
     @include('layouts.units')
    </div>
 
-   <div class=" pt-11 md:pt-20 lg:pt-20 xl:pt-28 2xl:pt-24 flex justify-center items-center w-full px-5">
+   <div class=" pt-11 md:pt-20 lg:pt-20 xl:pt-24 2xl:pt-28 flex justify-center items-center w-full md:px-16">
        <a href="https://dlc.dwit.edu.np/"><img src="{{ asset('pictures/Updated_DLC_Banner.png') }}" class="object-cover w-full md:rounded-3xl"></a> 
    </div>
 

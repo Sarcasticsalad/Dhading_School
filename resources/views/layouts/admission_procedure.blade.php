@@ -1,8 +1,10 @@
-<div class="flex flex-col gap-7 sm:gap-10 md:gap-12 lg:gap-16 xl:gap-16 justify-center pt-11 sm:pt-14 md:pt-16 lg:pt-20 xl:pt-24">
+<div class="flex flex-col gap-7 sm:gap-10 md:gap-12 lg:gap-14 xl:gap-16 justify-center pt-11 sm:pt-14 md:pt-16 lg:pt-20 xl:pt-24">
 
     <h1 class="text-heading-blue text-2xl font-arialBold font-bold text-center md:text-4xl xl:text-4xl">Admission Procedure</h1>
 
     <div class="flex flex-col place-items-center sm:mt-1 lg:hidden">
+
+{{-- For smaller screen upto medium --}}
 
         <div class="flex flex-col gap-8 mx-12">
 
@@ -13,7 +15,7 @@
     
             <div class="flex flex-row items-center gap-7 ">
                 <h1 class="text-heading-blue font-arialBold font-bold text-5xl md:text-6xl">02</h1>
-                <p class="font-arialRegular font-semibold text-sm md:text-lg text-left">Submit the application form</p>
+                <p class="font-arialRegular font-semibold text-sm md:text-lg text-left">Submit the Application Form</p>
             </div>
     
             <div class="flex flex-row items-center gap-7 ">
@@ -41,6 +43,8 @@
         
     </div>
 
+{{-- for larger screens --}}
+
     <div class="hidden lg:flex lg:flex-row lg:justify-evenly lg:mx-6 2xl:ml-20">
 
         <div class="flex flex-col gap-14 mx-6">
@@ -65,7 +69,7 @@
 
             <div class="flex flex-row gap-8 items-center">
                 <h1 class="text-heading-blue font-arialBold font-bold text-7xl 2xl:text-7xl items-center">02</h1>
-                <p class="font-arialRegular font-semibold 2xl:text-xl lg:text-xl items-center">Submit the application<br> form</p>
+                <p class="font-arialRegular font-semibold 2xl:text-xl lg:text-xl items-center">Submit the Application<br> Form</p>
             </div>
 
             <div class="flex flex-row gap-8 items-center">

@@ -1,6 +1,8 @@
-<div class="flex flex-col gap-7 sm:gap-10 md:gap-12 lg:gap-16 xl:gap-16">
+<div class="flex flex-col gap-7 sm:gap-10 md:gap-12 lg:gap-14 xl:gap-16">
 
     <h1 class="text-DDS-blue font-arialBold font-bold text-2xl text-center md:text-4xl xl:text-4xl">Why Choose DDS?</h1>
+
+{{-- For larger screens --}}
 
     <div class="hidden lg:block">
 
@@ -82,6 +84,7 @@
     </div>
 
 
+    {{-- For smaller screens upto medium --}}
     
     <div class="lg:hidden block">
 
@@ -93,13 +96,13 @@
                     
                     
                     <div class="flex flex-row justify-between">
-                        <h1 class="font-arialBold font-bold text-base sm:text-2xl text-heading-blue md:text-3xl">Essential Skills</h1>
+                        <h1 class="font-arialBold font-bold text-base sm:text-xl text-heading-blue md:text-3xl">Essential Skills</h1>
                         <img src="{{ asset('pictures/skills-blue.png') }}" class=" ml-2 h-[1.6rem] sm:h-[1.8rem] sm:mt-0.5 md:h-[2rem] md:mt-0 xl:pr-9 xl:mr-4 xl:h-[2.1rem]">
                     </div>
 
                     <div class="overflow-auto">
                         
-                            <p class="font-arialRegular font-semibold text-left text-sm">
+                            <p class="font-arialRegular font-semibold text-left text-xs sm:text-sm">
                                 Deerwalk Dhading School believes in equipping its students with essential skills crucial for both academic success and overall growth and development. 
                                 These skills encompass active listening, adherence to the 5 R’s of DSS (showing respect for everyone), maintaining a neat dress code, and upholding a zero-tolerance policy against bullying, sexist language, and dishonesty. 
                                 The school places significant emphasis on these skills as they play a vital role in creating a positive and inclusive learning environment conducive to the thriving of every student.
@@ -114,12 +117,12 @@
                 <div class="flex flex-col gap-5 p-5 sm:p-5 md:p-6 bg-DDS-blue rounded-xl lg:rounded-3xl border-4 sm:border-8 border-DDS-blue w-[13rem] max-h-[17rem]  sm:w-[15rem] sm:h-[17rem] md:w-[23rem] md:h-[14rem]">
                     
                     <div class="flex flex-row justify-between">
-                        <h1 class="font-arialBold font-bold text-base sm:text-2xl text-white md:text-3xl">Language Skills</h1>
+                        <h1 class="font-arialBold font-bold text-base sm:text-xl text-white md:text-3xl">Language Skills</h1>
                         <img src="{{ asset('pictures/language_icon.png') }}" class="h-[1.6rem] ml-2 sm:h-[1.8rem] sm:mt-0.5 md:h-[2rem] md:mt-0 "> 
                     </div>
                     <div class="overflow-auto">
                         
-                        <p class="text-white font-arialRegular font-semibold text-sm text-left">
+                        <p class="text-white font-arialRegular font-semibold text-xs sm:text-sm text-left">
                             In terms of language proficiency, Deerwalk Dhading School advocates for the learning of multiple languages. 
                             While English serves as the primary language for instruction and communication, with students mandated to read one English book monthly, there are no penalties for speaking Nepali, thereby fostering an appreciation for the native language. 
                             Additionally, students are encouraged to read one Nepali book monthly. Sanskrit, recognized for its enduring nature and its foundational role in coding languages and speech therapy, is also included in the language curriculum at Deerwalk Dhading School.
@@ -139,7 +142,7 @@
                         </div>
     
                         <div class="overflow-auto">
-                            <p class="font-arialRegular font-semibold text-sm text-left">
+                            <p class="font-arialRegular font-semibold text-xs sm:text-sm text-left">
                                 The school places utmost importance on academic fundamentals such as handwriting, completion of classwork and homework, maintaining a zero-tolerance stance against plagiarism, and engaging in project work. 
                                 Mastery of these fundamentals is deemed essential for academic success and future growth, forming the cornerstone of the academic experience at Deerwalk Dhading School.
 
@@ -151,11 +154,11 @@
                     
                     <div class=" flex flex-col gap-5 p-5 sm:p-5 md:p-6 rounded-lg lg:rounded-3xl bg-DDS-blue border-DDS-blue border-4 w-[13rem] max-h-[17rem] overflow-auto sm:w-[15rem] sm:h-[17rem] md:w-[23rem] md:h-[14rem]">
                         <div class="flex flex-row justify-between">
-                            <h1 class="font-arialBold font-bold text-base sm:text-2xl md:text-3xl text-white">Extra Curricular Activities</h1>
+                            <h1 class="font-arialBold font-bold text-base sm:text-xl md:text-3xl text-white">Extra Curricular Activities</h1>
                             <img src="{{ asset('pictures/flask-white.png') }}" class="h-[1.6rem] ml-2  sm:h-[1.8rem] sm:mt-0.5 md:h-[2rem] mt-0 ">
                         </div>
                         <div class="overflow-auto">
-                            <p class= "text-white font-arialRegular font-semibold text-sm text-left">
+                            <p class= "text-white font-arialRegular font-semibold text-xs sm:text-sm text-left">
                                 Deerwalk Dhading School champions holistic development through a diverse range of extracurricular activities (ECA), including student clubs categorized as exclusive and inclusive. 
                                 These clubs offer students opportunities for personal growth, leadership development, and overall enrichment alongside their academic pursuits. 
                                 Through active participation in these activities, students can explore their interests, cultivate new skills, forge enduring friendships, and enhance their overall educational journey at Deerwalk Dhading School.
