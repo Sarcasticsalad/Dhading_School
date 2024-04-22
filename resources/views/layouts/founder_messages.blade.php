@@ -4,6 +4,8 @@
 
 {{-- For mobile to medium screen --}}
 
+
+        {{-- Founder's Message - Rudra Sir --}}
         <div class="flex flex-col gap-8 sm:gap-10 md:gap-12 ">
             <h1 class="text-center text-heading-blue font-arialBold font-bold text-2xl md:text-4xl" >Founder's Greetings</h1>
             <img src="{{ asset('pictures/rudrasir.png') }}" class="rounded-full border-2 border-DDS-blue w-[14rem] h-[14rem] sm:w-[16rem] sm:h-[16rem] md:w-[20rem] md:h-[20rem]  mx-auto object-cover">
@@ -28,7 +30,33 @@
     
     </div>
     
+        {{-- Principle Message - Bijay Sir --}}
+        <div class="flex justify-center">
+    
+            <div class="flex flex-col gap-8 sm:gap-8 md:gap-10">
+                <h1 class="text-center text-heading-blue font-arialBold font-bold text-2xl md:text-4xl">Principal's Message</h1>
+                <img src="{{ asset('pictures/bijayasir.png') }}" class="rounded-full border-2 border-DDS-blue w-[14rem] h-[14rem] sm:w-[16rem] sm:h-[16rem] md:w-[20rem] md:h-[20rem]  mx-auto object-cover pr-">
+                
+                <div class="overflow-auto max-h-[10rem]">
+                    <p class="px-14 sm:px-16 md:px-24 font-arialRegular font-semibold text-justify">
+                        At DDS, we take pride in our unique educational approach, focusing on Read-Write-Code as the foundation for holistic development. 
+                        Our committed faculty prioritizes language skills through comprehensive programs in reading, writing, and coding, vital for academic and personal growth. 
+                        Monthly reading initiatives and creative platforms like "Students' Corner" foster critical thinking and creativity. 
+                        Early coding exposure hones problem-solving abilities and ignites a passion for technology. 
+                        Our inclusive environment encourages students to explore their potential fully, leading to academic and personal excellence. Join us at DDS for a rewarding educational journey, preparing you for success and impactful contributions to society.
+                    </p>
+                </div>
+    
+                
+    
+                <p class="font-arialBold font-bold text-center text-lg md:text-xl">- Bijay Shrestha<br>Deerwalk Sifal School </p>
+            </div>
+        
+        </div>
+    
 
+
+    {{-- Principle Message - Nirmal Sir --}}
     <div class="flex justify-center">
     
         <div class="flex flex-col gap-8 sm:gap-8 md:gap-10">
@@ -50,28 +78,6 @@
     
     </div>
 
-    <div class="flex justify-center">
-    
-        <div class="flex flex-col gap-8 sm:gap-8 md:gap-10">
-            <h1 class="text-center text-heading-blue font-arialBold font-bold text-2xl md:text-4xl">Principal's Message</h1>
-            <img src="{{ asset('pictures/bijayasir.png') }}" class="rounded-full border-2 border-DDS-blue w-[14rem] h-[14rem] sm:w-[16rem] sm:h-[16rem] md:w-[20rem] md:h-[20rem]  mx-auto object-cover pr-">
-            
-            <div class="overflow-auto max-h-[10rem]">
-                <p class="px-14 sm:px-16 md:px-24 font-arialRegular font-semibold text-justify">
-                    I bring a wealth of experience in Information Technology (IT) to my role as School Principal, holding an MTech degree from Kathmandu University's School of Engineering and benefiting from the Erasmus Mundus Scholarship for advanced studies in Italy.
-    
-                     Recognized for my commitment to educational progress, I also received the IVLP Fellowship in the USA, enriching my understanding of digital education. Over my decade-long tenure at Deerwalk, I've championed technology's impact on education, 
-    
-                     and I'm eager to contribute to the growth and success of every student at Deerwalk Dhading School.
-                </p>
-            </div>
-
-            
-
-            <p class="font-arialBold font-bold text-center text-lg md:text-xl">- Bijay Shrestha<br>Deerwalk Sifal School </p>
-        </div>
-    
-    </div>
 
 
 </div>
@@ -83,6 +89,8 @@
 <div class="hidden lg:block">
 
     <div class="flex flex-col items-center justify-center lg:gap-16 xl:gap-16">
+
+        {{-- Founder's Message - Rudra Sir --}}
 
         <div class="flex flex-col justify-center items-center lg:gap-10 lg:mx-20 xl:gap-14">
     
@@ -112,7 +120,29 @@
         
         </div>
 
-{{-- Principle Message - Nirmal Sir --}}
+         {{-- Principle Message - Bijay Sir --}}
+
+         <div class="flex flex-col justify-center items-center lg:gap-10 lg:mx-20 xl:gap-14">
+
+            <h1 class="text-heading-blue font-arialBold font-bold lg:text-4xl xl:text-4xl 2xl:text-4xl">Principal's Message</h1>
+            
+            <div class="flex flex-col justify-center items-center gap-8 xl:gap-10">
+
+                <img src="{{ asset('pictures/bijayasir.png') }}" class="rounded-full lg:w-[15rem] lg:h-[15rem] xl:w-[19rem] xl:h-[19rem] 2xl:w-[24rem] 2xl:h-[24rem] object-cover border-4 border-DDS-blue">
+               <p class="text-justify font-arialRegular font-semibold xl:text-lg 2xl:text-lg">
+                At DDS, we take pride in our unique educational approach, focusing on Read-Write-Code as the foundation for holistic development. 
+                Our committed faculty prioritizes language skills through comprehensive programs in reading, writing, and coding, vital for academic and personal growth. 
+                Monthly reading initiatives and creative platforms like "Students' Corner" foster critical thinking and creativity. 
+                Early coding exposure hones problem-solving abilities and ignites a passion for technology. Our inclusive environment encourages students to explore their potential fully, leading to academic and personal excellence. 
+                Join us at DDS for a rewarding educational journey, preparing you for success and impactful contributions to society.
+               </p>
+               <p class="font-arialBold font-bold text-xl xl:text-xl 2xl:text-xl">-Bijay Shrestha, Deerwalk Sifal School</p> 
+            </div>
+        
+        </div>
+
+
+        {{-- Principle Message - Nirmal Sir --}}
 
         <div class="flex flex-col justify-center items-center lg:gap-10 lg:mx-20 xl:gap-14">
             
@@ -137,26 +167,7 @@
 
         </div>
 
- {{-- Principle Message - Bijay Sir --}}
 
-        <div class="flex flex-col justify-center items-center lg:gap-10 lg:mx-20 xl:gap-14">
-
-            <h1 class="text-heading-blue font-arialBold font-bold lg:text-4xl xl:text-4xl 2xl:text-4xl">Principal's Message</h1>
-            
-            <div class="flex flex-col justify-center items-center gap-8 xl:gap-10">
-
-                <img src="{{ asset('pictures/bijayasir.png') }}" class="rounded-full lg:w-[15rem] lg:h-[15rem] xl:w-[19rem] xl:h-[19rem] 2xl:w-[24rem] 2xl:h-[24rem] object-cover border-4 border-DDS-blue">
-               <p class="text-justify font-arialRegular font-semibold xl:text-lg 2xl:text-lg">
-                 I bring a wealth of experience in Information Technology (IT) to my role as School Principal, holding an MTech degree from Kathmandu University's School of Engineering and benefiting from the Erasmus Mundus Scholarship for advanced studies in Italy.
-
-                 Recognized for my commitment to educational progress, I also received the IVLP Fellowship in the USA, enriching my understanding of digital education. Over my decade-long tenure at Deerwalk, I've championed technology's impact on education, 
-                 
-                 and I'm eager to contribute to the growth and success of every student at Deerwalk Dhading School.
-               </p>
-               <p class="font-arialBold font-bold text-xl xl:text-xl 2xl:text-xl">-Bijay Shrestha, Deerwalk Sifal School</p> 
-            </div>
-        
-        </div>
     
     
     </div>
