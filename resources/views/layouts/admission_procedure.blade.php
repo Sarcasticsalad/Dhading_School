@@ -74,7 +74,7 @@
 
             <div class="flex flex-row gap-8 items-center">
                 <h1 class="text-heading-blue font-arialBold font-bold text-7xl 2xl:text-7xl items-center">04</h1>
-                <p class="font-arialRegular font-semibold lg:text-lg 2xl:text-xl">Participate in Parent-<br>Teacher Interaction</p>
+                <p class="font-arialRegular font-semibold lg:text-xl 2xl:text-xl">Participate in Parent-<br>Teacher Interaction</p>
             </div>
     
             <div class="flex flex-row gap-8 items-center">

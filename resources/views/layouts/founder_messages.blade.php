@@ -136,7 +136,7 @@
                 Early coding exposure hones problem-solving abilities and ignites a passion for technology. Our inclusive environment encourages students to explore their potential fully, leading to academic and personal excellence. 
                 Join us at DDS for a rewarding educational journey, preparing you for success and impactful contributions to society.
                </p>
-               <p class="font-arialBold font-bold text-xl xl:text-xl 2xl:text-xl">-Bijay Shrestha, Deerwalk Sifal School</p> 
+               <p class="font-arialBold font-bold text-xl xl:text-xl 2xl:text-xl">- Bijay Shrestha, Deerwalk Sifal School</p> 
             </div>
         
         </div>
