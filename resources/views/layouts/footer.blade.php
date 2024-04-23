@@ -1,3 +1,5 @@
+{{-- For Smaller Screens --}}
+
 <div class="lg:hidden py-10">
 
     <div class="flex flex-col gap-5 justify-start">
@@ -15,7 +17,7 @@
 
             <div class="flex flex-row gap-2 pl-7">
                 <img src="{{ asset('pictures/telephone.png') }}" class="w-4">
-                <p class="font-arial-rounded font-normal text-xs text-white">01-4591249 , 9851064445</p>
+                <p class="font-arial-rounded font-normal text-xs text-white">01-4591249, 9851064445</p>
             </div>
 
             <div class="flex flex-row gap-2 pl-7">
@@ -59,7 +61,7 @@
 
 
 
-
+{{-- For Larger Screens --}}
 
 <div class="hidden lg:block pt-10 pb-10">
 
@@ -81,7 +83,7 @@
         
             <div class="flex flex-col md:gap-3 lg:gap-4 xl:gap-6 2xl:gap-6">
                 <p class="font-arialRegular font-normal md:text-sm xl:text-sm 2xl:text-lg text-white text-left">Dhunibesi-9, Dhading, Nepal</p>
-                <p class="font-arialRegular font-normal md:text-sm xl:text-sm 2xl:text-lg text-white text-left">01-459149 , 9851064445</p>
+                <p class="font-arialRegular font-normal md:text-sm xl:text-sm 2xl:text-lg text-white text-left">01-4591249, 9851064445</p>
                 <p class="font-arialRegular font-normal md:text-sm xl:text-sm 2xl:text-lg text-white text-left">contact@deerwalk.edu.np</p>
             </div>
         
