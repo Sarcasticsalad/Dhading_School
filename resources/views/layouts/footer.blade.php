@@ -37,7 +37,7 @@
                     src="{{ asset('pictures/instagram.png') }}" class="w-5 cursor-pointer"></a>
             <a target="_blank" href="https://www.facebook.com/profile.php?id=61557434263234"><img
                     src="{{ asset('pictures/facebook-app-symbol.png') }}" class="w-5 cursor-pointer"></a>
-            <a target="_blank" href=""><img src="{{ asset('pictures/youtube.png') }}"
+            <a target="_blank" href="https://twitter.com/DWDhadingSchool"><img src="{{ asset('pictures/X.png') }}"
                     class="w-5 cursor-pointer"></a>
             <a target="_blank" href="https://www.linkedin.com/company/deerwalk-dhading-school/"><img
                     src="{{ asset('pictures/linkedin.png') }}" class="w-5 cursor-pointer"></a>
@@ -157,7 +157,7 @@
                 <a target="_blank" href="https://www.facebook.com/profile.php?id=61557434263234"><img
                         src="{{ asset('pictures/facebook-app-symbol.png') }}"
                         class="w-5 lg:w-7 xl:w-7 2xl:w-8 cursor-pointer"></a>
-                <a target="_blank" href=""><img src="{{ asset('pictures/youtube.png') }}"
+                <a target="_blank" href="https://twitter.com/DWDhadingSchool"><img src="{{ asset('pictures/X.png') }}"
                         class="w-5 lg:w-7 xl:w-6 2xl:w-8 cursor-pointer"></a>
                 <a target="_blank" href="https://www.linkedin.com/company/deerwalk-dhading-school/"><img
                         src="{{ asset('pictures/linkedin.png') }}"
