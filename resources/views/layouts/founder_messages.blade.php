@@ -34,7 +34,7 @@
         <div class="flex justify-center">
     
             <div class="flex flex-col gap-8 sm:gap-8 md:gap-10">
-                <h1 class="text-center text-heading-blue font-arialBold font-bold text-2xl md:text-4xl">Principal's Message</h1>
+                <h1 class="text-center text-heading-blue font-arialBold font-bold text-2xl md:text-4xl">Chairperson's Message</h1>
                 <img src="{{ asset('pictures/bijayasir.png') }}" class="rounded-full border-2 border-DDS-blue w-[14rem] h-[14rem] sm:w-[16rem] sm:h-[16rem] md:w-[20rem] md:h-[20rem]  mx-auto object-cover pr-">
                 
                 <div class="overflow-auto max-h-[10rem]">
@@ -49,7 +49,7 @@
     
                 
     
-                <p class="font-arialBold font-bold text-center text-lg md:text-xl">- Bijay Shrestha<br>Deerwalk Sifal School </p>
+                <p class="font-arialBold font-bold text-center text-lg md:text-xl">- Bijay Shrestha<br>Deerwalk Dhading School</p>
             </div>
         
         </div>
@@ -124,7 +124,7 @@
 
          <div class="flex flex-col justify-center items-center lg:gap-10 lg:mx-20 xl:gap-14">
 
-            <h1 class="text-heading-blue font-arialBold font-bold lg:text-4xl xl:text-4xl 2xl:text-4xl">Principal's Message</h1>
+            <h1 class="text-heading-blue font-arialBold font-bold lg:text-4xl xl:text-4xl 2xl:text-4xl">Chairperson's Message</h1>
             
             <div class="flex flex-col justify-center items-center gap-8 xl:gap-10">
 
@@ -136,7 +136,7 @@
                 Early coding exposure hones problem-solving abilities and ignites a passion for technology. Our inclusive environment encourages students to explore their potential fully, leading to academic and personal excellence. 
                 Join us at DDS for a rewarding educational journey, preparing you for success and impactful contributions to society.
                </p>
-               <p class="font-arialBold font-bold text-xl xl:text-xl 2xl:text-xl">- Bijay Shrestha, Deerwalk Sifal School</p> 
+               <p class="font-arialBold font-bold text-xl xl:text-xl 2xl:text-xl">- Bijay Shrestha, Deerwalk Dhading School</p> 
             </div>
         
         </div>
