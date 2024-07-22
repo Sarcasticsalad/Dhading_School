@@ -21,7 +21,7 @@
     <header class="bg-white sticky top-0 z-10 shadow-md ">
         @include('layouts.nav')
     </header>
-
+    @include('layouts.popup')
     <div>
         <img src="{{ asset('pictures/ARCHI_DDS.png') }}" class="object-cover h-screen w-screen">
     </div>
