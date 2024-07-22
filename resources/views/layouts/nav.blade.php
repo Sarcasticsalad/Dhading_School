@@ -1,7 +1,9 @@
 <nav class="flex justify-between h-16 md:h-20 ">
 
-    <a target="_blank" href="/" class="w-96 h-0"><img src="{{ asset('pictures/DDS blue.png') }}"
-            class="h-[2.3rem] mt-4 pl-7 sm:h-[2.3rem] sm:ml-10 md:h-[3rem] md:ml-10 lg:h-[3rem] lg:pl-16 lg:mt-4 2xl:h-[2.7rem] 2xl:ml-20 2xl:mt-[1.2rem]"></a>
+    <a target="_blank" href="/" class="w-96 h-0">
+    <img src="{{ asset('pictures/DDS.png') }}"
+         class="h-[2.3rem] mt-4 pl-7 sm:h-[2.3rem] sm:ml-10 md:h-[3rem] md:ml-10 lg:h-[3rem] lg:pl-16 lg:mt-4 2xl:h-[2.7rem] 2xl:ml-20 2xl:mt-[1.2rem]">
+</a>
     {{-- <img src="{{ asset('pictures/DDS_logo.png') }}" class="h-[2.3rem] mt-4 pl-7 sm:h-[2.3rem] sm:ml-10 md:h-[3rem] md:ml-10 lg:h-[3rem] lg:pl-16 lg:mt-4 2xl:h-[2.7rem] 2xl:ml-20 2xl:mt-5">    --}}
     <div
         class="nav-links flex items-center absolute hidden bg-white w-screen px-5 top-[100%] lg:top-[90%] pb-8 pt-4 sm:px-8  md:px-10 lg:px-16 lg:static lg:block  xl:block  2xl:block ">

@@ -31,7 +31,7 @@
     </div>
     
         {{-- Principle Message - Bijay Sir --}}
-        <div class="flex justify-center">
+        {{-- <div class="flex justify-center">
     
             <div class="flex flex-col gap-8 sm:gap-8 md:gap-10">
                 <h1 class="text-center text-heading-blue font-arialBold font-bold text-2xl md:text-4xl">Chairperson's Message</h1>
@@ -53,7 +53,7 @@
             </div>
         
         </div>
-    
+     --}}
 
 
     {{-- Principle Message - Nirmal Sir --}}
@@ -122,7 +122,7 @@
 
          {{-- Principle Message - Bijay Sir --}}
 
-         <div class="flex flex-col justify-center items-center lg:gap-10 lg:mx-20 xl:gap-14">
+         {{-- <div class="flex flex-col justify-center items-center lg:gap-10 lg:mx-20 xl:gap-14">
 
             <h1 class="text-heading-blue font-arialBold font-bold lg:text-4xl xl:text-4xl 2xl:text-4xl">Chairperson's Message</h1>
             
@@ -139,7 +139,7 @@
                <p class="font-arialBold font-bold text-xl xl:text-xl 2xl:text-xl">- Bijay Shrestha, Deerwalk Dhading School</p> 
             </div>
         
-        </div>
+        </div> --}}
 
 
         {{-- Principle Message - Nirmal Sir --}}

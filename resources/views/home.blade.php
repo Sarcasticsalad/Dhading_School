@@ -21,9 +21,9 @@
     <header class="bg-white sticky top-0 z-10 shadow-md ">
         @include('layouts.nav')
     </header>
-
+    @include('layouts.popup')
     <div>
-        <img src="{{ asset('pictures/ARCHI_DDS.png') }}" class="object-cover h-screen w-screen">
+        <img src="{{ asset('pictures/bg.jpg') }}" class="object-cover h-screen w-screen">
     </div>
 
     <div class="pt-11 flex justify-center sm:pt-14 md:pt-16 lg:pt-20 xl:pt-24" id="Academics">
