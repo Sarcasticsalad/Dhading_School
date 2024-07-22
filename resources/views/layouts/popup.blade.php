@@ -12,10 +12,10 @@
                 align-items: center;">
         <div id="popup" class="popup"
             style="display: flex; justify-content:center;align-items:center;width:100%; z-index:1001;">
-            <div class="popup-content" style="width: 50%; position: relative;">
+            <div class="popup-content" style="width: 40%; position: relative;">
                 <button class="closebtn" onclick="hidePopup()" 
-                        style="position: absolute; top: 10px; right: 10px; z-index: 1002;">X</button>
-                <img src="{{ asset('uploads/Admission.png') }}" alt="Admission" style="width: 100%">
+                        style="position: absolute; top: 10px; right: 10px; z-index: 1002;"><b>X</b></button>
+                <img src="{{ asset('pictures/Admission.png') }}" alt="Admission" style="width: 100%">
             </div>
         </div>
     </div>
